@@ -1,52 +1,53 @@
 <!DOCTYPE html>
+<html lang="">
 
-<html lang>
-	<head>
-		<title></title>
-		<meta content="summary_large_image" name="twitter:card" />
-		<meta content="website" property="og:type" />
-		<meta content property="og:description" />
-		<meta content property="og:url" />
-		<meta content property="og:title" />
-		<meta content name="description" />
-		<meta charset="utf-8" />
-		<meta content="width=device-width" name="viewport" />
-		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker"
-			rel="stylesheet" type="text/css" />
-		<style>
-		.emotsy-row,
-		.emotsy-row-content {
+<head>
+	<title></title>
+	<meta content="summary_large_image" name="twitter:card" />
+	<meta content="website" property="og:type" />
+	<meta content="" property="og:description" />
+	<meta content="" property="og:url" />
+	<meta content="assets/1_13056711_large.jpg" property="og:image" />
+	<meta content="" property="og:title" />
+	<meta content="" name="description" />
+	<meta charset="utf-8" />
+	<meta content="width=device-width" name="viewport" />
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css" />
+	<style>
+		.bee-row,
+		.bee-row-content {
 			position: relative
 		}
 
-		.emotsy-button-content,
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2,
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 .emotsy-button-container {
-			text-align: center
-		}
-
-		.emotsy-menu .emotsy-hamburger-controls span,
-		.emotsy-row-1,
-		.emotsy-row-15,
-		.emotsy-row-16,
-		.emotsy-row-18,
-		.emotsy-row-19,
-		.emotsy-row-2,
-		.emotsy-row-3,
-		.emotsy-row-4,
-		.emotsy-row-5,
-		.emotsy-row-7 {
+		.bee-row-15,
+		.bee-row-2 {
+			background-position: center top;
 			background-repeat: no-repeat
 		}
 
 		body {
-			background-color: #f5d3ab;
+			background-color: #f9ecdc;
 			color: #000000;
-			font-family: Helvetica Neue, Helvetica, Arial, sans-serif
+			font-family: Cabin, Arial, Helvetica Neue, Helvetica, sans-serif
 		}
 
+		.bee-row-1 .bee-col-3 .bee-block-2 li a,
+		.bee-row-13 .bee-col-3 .bee-block-10 a,
+		.bee-row-13 .bee-col-3 .bee-block-4 a,
+		.bee-row-13 .bee-col-3 .bee-block-6 a,
+		.bee-row-13 .bee-col-3 .bee-block-8 a,
+		.bee-row-15 .bee-col-2 .bee-block-4 a,
+		.bee-row-17 .bee-col-2 .bee-block-5 a,
+		.bee-row-17 .bee-col-3 .bee-block-5 a,
+		.bee-row-21 .bee-col-2 .bee-block-2 li a,
+		.bee-row-3 .bee-col-2 .bee-block-3 a,
+		.bee-row-6 .bee-col-3 .bee-block-4 a,
+		.bee-row-6 .bee-col-3 .bee-block-6 a,
+		.bee-row-6 .bee-col-3 .bee-block-8 a,
+		.bee-row-7 .bee-col-1 .bee-block-4 a,
 		a {
-			color: #0068A5
+			color: #171719
 		}
 
 		* {
@@ -55,22 +56,23 @@
 
 		body,
 		h1,
+		h2,
 		p {
 			margin: 0
 		}
 
-		.emotsy-menu .emotsy-hamburger-trigger {
+		.bee-menu .bee-hamburger-trigger {
 			display: none
 		}
 
-		.emotsy-row-content {
+		.bee-row-content {
 			max-width: 1440px;
 			margin: 0 auto;
 			display: flex
 		}
 
-		.emotsy-row-content.reverse,
-		.emotsy-row-content.reverse .emotsy-col {
+		.bee-row-content.reverse,
+		.bee-row-content.reverse .bee-col {
 			-moz-transform: scale(1, -1);
 			-webkit-transform: scale(1, -1);
 			-o-transform: scale(1, -1);
@@ -78,69 +80,76 @@
 			transform: scale(1, -1)
 		}
 
-		.emotsy-row-content .emotsy-col-w2 {
+		.bee-row-content .bee-col-w2 {
 			flex-basis: 16.6666666667%
 		}
 
-		.emotsy-row-content .emotsy-col-w3 {
+		.bee-row-content .bee-col-w3 {
 			flex-basis: 25%
 		}
 
-		.emotsy-row-content .emotsy-col-w4 {
+		.bee-row-content .bee-col-w4 {
 			flex-basis: 33.3333333333%
 		}
 
-		.emotsy-row-content .emotsy-col-w5 {
+		.bee-row-content .bee-col-w5 {
 			flex-basis: 41.6666666667%
 		}
 
-		.emotsy-row-content .emotsy-col-w6 {
+		.bee-row-content .bee-col-w6 {
 			flex-basis: 50%
 		}
 
-		.emotsy-row-content .emotsy-col-w7 {
-			flex-basis: 58.3333333333%
-		}
-
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 div.label:not(.inline),
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 label:not(.inline),
-		.emotsy-row-content .emotsy-col-w12 {
+		.bee-row-21 .bee-col-3 .bee-block-3 div.label:not(.inline),
+		.bee-row-21 .bee-col-3 .bee-block-3 label:not(.inline),
+		.bee-row-content .bee-col-w12 {
 			flex-basis: 100%
 		}
 
-		.emotsy-button a,
-		.emotsy-icon .emotsy-icon-label-right a,
-		.emotsy-menu ul li a {
+		.bee-button a,
+		.bee-icon .bee-icon-label-right a,
+		.bee-menu ul li a {
 			text-decoration: none
 		}
 
-		.emotsy-divider,
-		.emotsy-image {
+		.bee-button-content,
+		.bee-row-21 .bee-col-3 .bee-block-3,
+		.bee-row-21 .bee-col-3 .bee-block-3 .bee-button-container {
+			text-align: center
+		}
+
+		.bee-divider,
+		.bee-image {
 			overflow: auto
 		}
 
-		.emotsy-divider .center,
-		.emotsy-image .emotsy-center {
+		.bee-divider .center,
+		.bee-image .bee-center {
 			margin: 0 auto
 		}
 
-		.emotsy-row-11 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-1,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-8,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-1,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-8,
-		.emotsy-row-15 .emotsy-col-1 .emotsy-block-2,
-		.emotsy-row-15 .emotsy-col-2 .emotsy-block-2,
-		.emotsy-row-15 .emotsy-col-3 .emotsy-block-2,
-		.emotsy-row-15 .emotsy-col-4 .emotsy-block-2,
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 .emotsy-form-row:not(.emotsy-sidelabel) input:not([type=checkbox]):not([type=radio]),
-		.emotsy-row-4 .emotsy-col-1 .emotsy-block-7,
-		.emotsy-row-5 .emotsy-col-1 .emotsy-block-2,
-		.emotsy-row-6 .emotsy-col-3 .emotsy-block-1 {
+		.bee-row-1 .bee-col-1 .bee-block-2,
+		.bee-row-10 .bee-col-2 .bee-block-1,
+		.bee-row-10 .bee-col-3 .bee-block-1,
+		.bee-row-10 .bee-col-4 .bee-block-1,
+		.bee-row-10 .bee-col-5 .bee-block-1,
+		.bee-row-13 .bee-col-2 .bee-block-2,
+		.bee-row-15 .bee-col-2 .bee-block-6,
+		.bee-row-17 .bee-col-2 .bee-block-1,
+		.bee-row-17 .bee-col-3 .bee-block-1,
+		.bee-row-19 .bee-col-2 .bee-block-4,
+		.bee-row-19 .bee-col-3 .bee-block-4,
+		.bee-row-21 .bee-col-1 .bee-block-2,
+		.bee-row-21 .bee-col-3 .bee-block-3 .bee-form-row:not(.bee-sidelabel) input:not([type=checkbox]):not([type=radio]),
+		.bee-row-6 .bee-col-2 .bee-block-2,
+		.bee-row-8 .bee-col-2 .bee-block-1,
+		.bee-row-8 .bee-col-3 .bee-block-1,
+		.bee-row-8 .bee-col-4 .bee-block-1,
+		.bee-row-8 .bee-col-5 .bee-block-1 {
 			width: 100%
 		}
 
-		.emotsy-form .emotsy-form-row .emotsy-field {
+		.bee-form .bee-form-row .bee-field {
 			padding: 3px;
 			display: flex;
 			flex: 1;
@@ -148,590 +157,459 @@
 			align-items: center
 		}
 
-		.emotsy-form .emotsy-form-row .emotsy-field input:not([type=checkbox]):not([type=radio]) {
+		.bee-form .bee-form-row .bee-field input:not([type=checkbox]):not([type=radio]) {
 			flex-grow: 1;
 			font-family: inherit;
 			font-size: inherit
 		}
 
-		.emotsy-form .emotsy-form-row .emotsy-field input[type=checkbox]:not(:first-of-type) {
+		.bee-form .bee-form-row .bee-field input[type=checkbox]:not(:first-of-type) {
 			margin-left: 15px
 		}
 
-		.emotsy-form .emotsy-form-row .emotsy-field button {
+		.bee-form .bee-form-row .bee-field button {
 			font-family: inherit;
 			font-size: inherit;
 			cursor: pointer
 		}
 
-		.emotsy-form .emotsy-form-row .emotsy-field .emotsy-button-container {
+		.bee-row-3 .bee-col-2 .bee-block-2 h1,
+		.bee-row-3 .bee-col-2 .bee-block-4 h1 {
+			font-family: "Abril Fatface", Arial, "Helvetica Neue", Helvetica, sans-serif;
+			line-height: 120%;
+			font-weight: 400;
+			direction: ltr
+		}
+
+		.bee-form .bee-form-row .bee-field .bee-button-container {
 			flex-grow: 1
 		}
 
-		.emotsy-form input[type=color] {
+		.bee-form input[type=color] {
 			border: none;
 			height: 38px
 		}
 
-		.emotsy-form input[type=color]::-webkit-color-swatch-wrapper {
+		.bee-form input[type=color]::-webkit-color-swatch-wrapper {
 			margin: 0;
 			padding: 2px
 		}
 
-		.emotsy-form input[type=color]::-webkit-color-swatch {
+		.bee-form input[type=color]::-webkit-color-swatch {
 			margin: 0;
 			padding: 0
 		}
 
-		.emotsy-icon {
+		.bee-icon {
 			display: inline-block;
 			vertical-align: middle
 		}
 
-		.emotsy-icon .emotsy-content {
+		.bee-icon .bee-content {
 			display: flex;
 			align-items: center
 		}
 
-		.emotsy-image img {
+		.bee-image img {
 			display: block;
 			width: 100%
 		}
 
-		.emotsy-menu .emotsy-hamburger-controls {
+		.bee-menu .bee-hamburger-controls {
 			cursor: pointer;
 			display: inline-block;
 			position: relative
 		}
 
-		.emotsy-menu .emotsy-hamburger-controls span {
+		.bee-menu .bee-hamburger-controls span {
 			display: block;
 			position: absolute;
 			top: 50%;
 			left: 50%;
 			background-size: 100%;
+			background-repeat: no-repeat;
 			transition: .12s ease-in-out
 		}
 
-		.emotsy-menu ul {
+		.bee-menu ul {
 			list-style-type: none;
 			margin: 0;
 			padding: 0
 		}
 
-		.emotsy-menu ul.emotsy-horizontal li {
+		.bee-menu ul.bee-horizontal li {
 			display: inline-block
 		}
 
-		.emotsy-paragraph,
-		.emotsy-text {
+		.bee-paragraph,
+		.bee-text {
 			overflow-wrap: anywhere
 		}
 
-		.emotsy-social .icon img {
+		.bee-social .icon img {
 			max-height: 32px
 		}
 
-		.emotsy-row-1 .emotsy-row-content,
-		.emotsy-row-10 .emotsy-row-content,
-		.emotsy-row-11 .emotsy-row-content,
-		.emotsy-row-12 .emotsy-row-content,
-		.emotsy-row-13 .emotsy-row-content,
-		.emotsy-row-14 .emotsy-row-content,
-		.emotsy-row-15 .emotsy-row-content,
-		.emotsy-row-16 .emotsy-row-content,
-		.emotsy-row-17 .emotsy-row-content,
-		.emotsy-row-18 .emotsy-row-content,
-		.emotsy-row-19 .emotsy-row-content,
-		.emotsy-row-2 .emotsy-row-content,
-		.emotsy-row-20 .emotsy-row-content,
-		.emotsy-row-21 .emotsy-row-content,
-		.emotsy-row-22 .emotsy-row-content,
-		.emotsy-row-23 .emotsy-row-content,
-		.emotsy-row-3 .emotsy-row-content,
-		.emotsy-row-4 .emotsy-row-content,
-		.emotsy-row-5 .emotsy-row-content,
-		.emotsy-row-6 .emotsy-row-content,
-		.emotsy-row-7 .emotsy-row-content,
-		.emotsy-row-8 .emotsy-row-content,
-		.emotsy-row-9 .emotsy-row-content {
+		.bee-row-1,
+		.bee-row-16,
+		.bee-row-17,
+		.bee-row-18,
+		.bee-row-19,
+		.bee-row-20,
+		.bee-row-3,
+		.bee-row-4 {
+			background-color: #fffbf2;
+			background-repeat: no-repeat
+		}
+
+		.bee-row-1 .bee-row-content,
+		.bee-row-10 .bee-row-content,
+		.bee-row-11 .bee-row-content,
+		.bee-row-15 .bee-row-content,
+		.bee-row-16 .bee-row-content,
+		.bee-row-17 .bee-row-content,
+		.bee-row-18 .bee-row-content,
+		.bee-row-19 .bee-row-content,
+		.bee-row-2 .bee-row-content,
+		.bee-row-20 .bee-row-content,
+		.bee-row-3 .bee-row-content,
+		.bee-row-4 .bee-row-content,
+		.bee-row-6 .bee-row-content,
+		.bee-row-7 .bee-row-content,
+		.bee-row-8 .bee-row-content,
+		.bee-row-9 .bee-row-content {
 			background-repeat: no-repeat;
 			color: #000000
 		}
 
-		.emotsy-row-1 .emotsy-col-1,
-		.emotsy-row-10 .emotsy-col-1,
-		.emotsy-row-12 .emotsy-col-1,
-		.emotsy-row-13 .emotsy-col-1,
-		.emotsy-row-14 .emotsy-col-1,
-		.emotsy-row-16 .emotsy-col-1,
-		.emotsy-row-17 .emotsy-col-1,
-		.emotsy-row-19 .emotsy-col-1,
-		.emotsy-row-2 .emotsy-col-1,
-		.emotsy-row-2 .emotsy-col-2,
-		.emotsy-row-21 .emotsy-col-1,
-		.emotsy-row-22 .emotsy-col-1,
-		.emotsy-row-22 .emotsy-col-2,
-		.emotsy-row-22 .emotsy-col-3,
-		.emotsy-row-22 .emotsy-col-4,
-		.emotsy-row-23 .emotsy-col-1,
-		.emotsy-row-24 .emotsy-col-1,
-		.emotsy-row-3 .emotsy-col-1,
-		.emotsy-row-5 .emotsy-col-1,
-		.emotsy-row-5 .emotsy-col-2,
-		.emotsy-row-5 .emotsy-col-3,
-		.emotsy-row-6 .emotsy-col-1,
-		.emotsy-row-6 .emotsy-col-2,
-		.emotsy-row-6 .emotsy-col-3,
-		.emotsy-row-7 .emotsy-col-1,
-		.emotsy-row-8 .emotsy-col-1,
-		.emotsy-row-9 .emotsy-col-1,
-		.emotsy-row-9 .emotsy-col-2 {
+		.bee-row-1 .bee-col-1,
+		.bee-row-1 .bee-col-2,
+		.bee-row-1 .bee-col-3,
+		.bee-row-10 .bee-col-1,
+		.bee-row-10 .bee-col-6,
+		.bee-row-11 .bee-col-1,
+		.bee-row-12 .bee-col-1,
+		.bee-row-13 .bee-col-1,
+		.bee-row-13 .bee-col-4,
+		.bee-row-14 .bee-col-1,
+		.bee-row-16 .bee-col-1,
+		.bee-row-17 .bee-col-4,
+		.bee-row-19 .bee-col-4,
+		.bee-row-20 .bee-col-1,
+		.bee-row-21 .bee-col-2,
+		.bee-row-22 .bee-col-1,
+		.bee-row-3 .bee-col-1,
+		.bee-row-3 .bee-col-2,
+		.bee-row-3 .bee-col-3,
+		.bee-row-4 .bee-col-1,
+		.bee-row-5 .bee-col-1,
+		.bee-row-6 .bee-col-1,
+		.bee-row-6 .bee-col-4,
+		.bee-row-7 .bee-col-1,
+		.bee-row-8 .bee-col-1,
+		.bee-row-8 .bee-col-6,
+		.bee-row-9 .bee-col-1 {
 			padding-bottom: 5px;
 			padding-top: 5px
 		}
 
-		.emotsy-row-1 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-13 .emotsy-col-2 .emotsy-block-2 .emotsy-icon-image,
-		.emotsy-row-13 .emotsy-col-3 .emotsy-block-2 .emotsy-icon-image,
-		.emotsy-row-13 .emotsy-col-4 .emotsy-block-2 .emotsy-icon-image,
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-2 .emotsy-icon-image,
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-4 .emotsy-icon-image,
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-6 .emotsy-icon-image,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-2 .emotsy-icon-image,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-4 .emotsy-icon-image,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-6 .emotsy-icon-image,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-2 .emotsy-icon-image,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-4 .emotsy-icon-image,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-6 .emotsy-icon-image,
-		.emotsy-row-3 .emotsy-col-1 .emotsy-block-1 {
-			padding: 5px
-		}
-
-		.emotsy-row-2 .emotsy-col-1 .emotsy-block-1 {
-			color: #000000;
+		.bee-row-1 .bee-col-3 .bee-block-2 {
+			color: #171719;
 			font-family: inherit;
-			font-size: 14px;
-			text-align: left
-		}
-
-		.emotsy-row-2 .emotsy-col-2 .emotsy-block-1 {
-			color: #171b1b;
-			font-family: inherit;
-			font-size: 18px;
-			padding-right: 10px;
-			padding-top: 10px;
-			text-align: right
-		}
-
-		.emotsy-row-4 {
-			background-color: #171b1b;
-			background-image: url('https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7636/bg_XMAS.png');
-			background-position: center top
-		}
-
-		.emotsy-row-13 .emotsy-col-2 .emotsy-block-1,
-		.emotsy-row-13 .emotsy-col-2 .emotsy-block-5,
-		.emotsy-row-13 .emotsy-col-3 .emotsy-block-1,
-		.emotsy-row-13 .emotsy-col-3 .emotsy-block-5,
-		.emotsy-row-13 .emotsy-col-4 .emotsy-block-1,
-		.emotsy-row-13 .emotsy-col-4 .emotsy-block-5,
-		.emotsy-row-14 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-14 .emotsy-col-1 .emotsy-block-2,
-		.emotsy-row-14 .emotsy-col-1 .emotsy-block-5,
-		.emotsy-row-15 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-15 .emotsy-col-1 .emotsy-block-6,
-		.emotsy-row-15 .emotsy-col-2 .emotsy-block-1,
-		.emotsy-row-15 .emotsy-col-2 .emotsy-block-6,
-		.emotsy-row-15 .emotsy-col-3 .emotsy-block-1,
-		.emotsy-row-15 .emotsy-col-3 .emotsy-block-6,
-		.emotsy-row-15 .emotsy-col-4 .emotsy-block-1,
-		.emotsy-row-15 .emotsy-col-4 .emotsy-block-6,
-		.emotsy-row-16 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-17 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-17 .emotsy-col-1 .emotsy-block-2,
-		.emotsy-row-17 .emotsy-col-1 .emotsy-block-5,
-		.emotsy-row-19 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-20 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-20 .emotsy-col-1 .emotsy-block-2,
-		.emotsy-row-20 .emotsy-col-1 .emotsy-block-6,
-		.emotsy-row-21 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-23 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-4 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-4 .emotsy-col-1 .emotsy-block-2,
-		.emotsy-row-4 .emotsy-col-1 .emotsy-block-4,
-		.emotsy-row-4 .emotsy-col-1 .emotsy-block-6,
-		.emotsy-row-5 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-5 .emotsy-col-2 .emotsy-block-1,
-		.emotsy-row-5 .emotsy-col-2 .emotsy-block-2,
-		.emotsy-row-5 .emotsy-col-2 .emotsy-block-7,
-		.emotsy-row-6 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-6 .emotsy-col-1 .emotsy-block-2,
-		.emotsy-row-6 .emotsy-col-2 .emotsy-block-1,
-		.emotsy-row-7 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-2,
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-8,
-		.emotsy-row-9 .emotsy-col-1 .emotsy-block-1 {
-			padding: 10px
-		}
-
-		.emotsy-row-4 .emotsy-col-1 .emotsy-block-3 {
-			padding: 10px;
-			text-align: center;
-			width: 100%
-		}
-
-		.emotsy-row-15 .emotsy-col-1 .emotsy-block-5,
-		.emotsy-row-15 .emotsy-col-2 .emotsy-block-5,
-		.emotsy-row-15 .emotsy-col-3 .emotsy-block-5,
-		.emotsy-row-15 .emotsy-col-4 .emotsy-block-5,
-		.emotsy-row-20 .emotsy-col-1 .emotsy-block-5,
-		.emotsy-row-4 .emotsy-col-1 .emotsy-block-5,
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-6 {
-			padding: 10px;
+			font-size: 15px;
+			letter-spacing: 1px;
 			text-align: center
 		}
 
-		.emotsy-row-5 {
-			background-color: #f5d3ab;
-			background-image: url('https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7636/christmas_decoration.png');
-			background-position: top center
+		.bee-row-2 {
+			background-color: #fffbf2
 		}
 
-		.emotsy-row-11,
-		.emotsy-row-13,
-		.emotsy-row-20,
-		.emotsy-row-8 {
-			background-position: center top
-		}
-
-		.emotsy-row-14 .emotsy-col-1 .emotsy-block-3,
-		.emotsy-row-20 .emotsy-col-1 .emotsy-block-3,
-		.emotsy-row-5 .emotsy-col-2 .emotsy-block-3,
-		.emotsy-row-6 .emotsy-col-1 .emotsy-block-3,
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-3 {
-			padding-left: 10px;
-			padding-top: 10px;
-			text-align: center;
-			width: 100%
-		}
-
-		.emotsy-row-13 .emotsy-col-2 .emotsy-block-4,
-		.emotsy-row-13 .emotsy-col-3 .emotsy-block-4,
-		.emotsy-row-13 .emotsy-col-4 .emotsy-block-4,
-		.emotsy-row-14 .emotsy-col-1 .emotsy-block-4,
-		.emotsy-row-15 .emotsy-col-1 .emotsy-block-3,
-		.emotsy-row-15 .emotsy-col-1 .emotsy-block-4,
-		.emotsy-row-15 .emotsy-col-2 .emotsy-block-3,
-		.emotsy-row-15 .emotsy-col-2 .emotsy-block-4,
-		.emotsy-row-15 .emotsy-col-3 .emotsy-block-3,
-		.emotsy-row-15 .emotsy-col-3 .emotsy-block-4,
-		.emotsy-row-15 .emotsy-col-4 .emotsy-block-3,
-		.emotsy-row-15 .emotsy-col-4 .emotsy-block-4,
-		.emotsy-row-17 .emotsy-col-1 .emotsy-block-4,
-		.emotsy-row-20 .emotsy-col-1 .emotsy-block-4,
-		.emotsy-row-5 .emotsy-col-2 .emotsy-block-4,
-		.emotsy-row-5 .emotsy-col-2 .emotsy-block-5,
-		.emotsy-row-6 .emotsy-col-1 .emotsy-block-4,
-		.emotsy-row-6 .emotsy-col-1 .emotsy-block-5,
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-4,
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-5 {
-			padding: 10px 10px 20px
-		}
-
-		.emotsy-row-11 .emotsy-col-1 .emotsy-block-6,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-12,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-5,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-12,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-5,
-		.emotsy-row-22 .emotsy-col-3 .emotsy-block-4,
-		.emotsy-row-5 .emotsy-col-2 .emotsy-block-6,
-		.emotsy-row-6 .emotsy-col-1 .emotsy-block-6 {
-			padding: 10px;
-			text-align: left
-		}
-
-		.emotsy-row-14,
-		.emotsy-row-17,
-		.emotsy-row-6 {
-			background-color: #f5d3ab;
-			background-position: center top;
-			background-repeat: no-repeat
-		}
-
-		.emotsy-row-10,
-		.emotsy-row-11,
-		.emotsy-row-12,
-		.emotsy-row-21,
-		.emotsy-row-22,
-		.emotsy-row-23,
-		.emotsy-row-8,
-		.emotsy-row-9 {
-			background-color: #171b1b;
-			background-repeat: no-repeat
-		}
-
-		.emotsy-row-8 {
-			background-image: url('https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7636/bg_dark_area.png')
-		}
-
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-7 {
-			padding: 25px 10px 10px;
-			width: 100%
-		}
-
-		.emotsy-row-13 .emotsy-col-2 .emotsy-block-3,
-		.emotsy-row-13 .emotsy-col-3 .emotsy-block-3,
-		.emotsy-row-13 .emotsy-col-4 .emotsy-block-3,
-		.emotsy-row-9 .emotsy-col-1 .emotsy-block-2 {
-			padding-bottom: 15px;
-			padding-left: 10px;
-			padding-top: 10px;
-			text-align: center;
-			width: 100%
-		}
-
-		.emotsy-row-10 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-11 .emotsy-col-1 .emotsy-block-7,
-		.emotsy-row-12 .emotsy-col-1 .emotsy-block-1 {
-			padding: 30px
-		}
-
-		.emotsy-row-11 {
-			background-image: url('https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7636/bg_reciepes.png')
-		}
-
-		.emotsy-row-11 .emotsy-col-1 {
-			background-color: #ffffff;
-			border-bottom: 14px solid #171B1B;
-			border-left: 14px solid #171B1B;
-			border-right: 14px solid #171B1B;
-			border-top: 14px solid #171B1B;
-			padding-bottom: 5px
-		}
-
-		.emotsy-row-11 .emotsy-col-1 .emotsy-block-2,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-13,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-6,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-13,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-6 {
+		.bee-row-17 .bee-col-2,
+		.bee-row-17 .bee-col-3,
+		.bee-row-19 .bee-col-2,
+		.bee-row-19 .bee-col-3,
+		.bee-row-2 .bee-col-1 .bee-block-1,
+		.bee-row-3 .bee-col-2 .bee-block-1,
+		.bee-row-9 .bee-col-1 .bee-block-1 {
 			padding: 20px
 		}
 
-		.emotsy-row-11 .emotsy-col-1 .emotsy-block-3,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-2,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-9,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-2,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-9 {
-			padding: 30px 10px 10px 20px
+		.bee-row-3 .bee-col-2 .bee-block-2 {
+			padding: 15px;
+			text-align: center;
+			width: 100%
 		}
 
-		.emotsy-row-11 .emotsy-col-1 .emotsy-block-4,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-10,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-3,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-10,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-3 {
+		.bee-row-1 .bee-col-3 .bee-block-2 li,
+		.bee-row-11 .bee-col-1 .bee-block-1,
+		.bee-row-12 .bee-col-1 .bee-block-1,
+		.bee-row-13 .bee-col-2 .bee-block-1,
+		.bee-row-13 .bee-col-3 .bee-block-1,
+		.bee-row-13 .bee-col-3 .bee-block-11,
+		.bee-row-14 .bee-col-1 .bee-block-1,
+		.bee-row-15 .bee-col-2 .bee-block-1,
+		.bee-row-16 .bee-col-1 .bee-block-1,
+		.bee-row-17 .bee-col-2 .bee-block-2,
+		.bee-row-17 .bee-col-3 .bee-block-2,
+		.bee-row-18 .bee-col-1 .bee-block-1,
+		.bee-row-19 .bee-col-2 .bee-block-1,
+		.bee-row-19 .bee-col-3 .bee-block-1,
+		.bee-row-20 .bee-col-1 .bee-block-1,
+		.bee-row-3 .bee-col-2 .bee-block-3,
+		.bee-row-4 .bee-col-1 .bee-block-1,
+		.bee-row-6 .bee-col-2 .bee-block-1,
+		.bee-row-6 .bee-col-3 .bee-block-1,
+		.bee-row-6 .bee-col-3 .bee-block-9,
+		.bee-row-7 .bee-col-1 .bee-block-1 {
+			padding: 15px
+		}
+
+		.bee-row-15 .bee-col-2 .bee-block-3,
+		.bee-row-16 .bee-col-1 .bee-block-3,
+		.bee-row-18 .bee-col-1 .bee-block-3,
+		.bee-row-3 .bee-col-2 .bee-block-4,
+		.bee-row-7 .bee-col-1 .bee-block-3 {
 			padding-bottom: 15px;
-			padding-left: 20px;
-			padding-top: 10px;
-			text-align: center;
-			width: 100%
-		}
-
-		.emotsy-row-11 .emotsy-col-1 .emotsy-block-5 {
-			padding: 10px 10px 30px 20px
-		}
-
-		.emotsy-row-11 .emotsy-col-2,
-		.emotsy-row-11 .emotsy-col-3 {
-			background-color: #ffffff;
-			border-bottom: 13px solid #171B1B;
-			border-left: 13px solid #171B1B;
-			border-right: 13px solid #171B1B;
-			border-top: 13px solid #171B1B;
-			padding-bottom: 5px
-		}
-
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-11,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-4,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-11,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-4 {
-			padding: 10px 10px 20px 20px
-		}
-
-		.emotsy-row-13 {
-			background-image: url('https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7636/seperator_dark.png');
-			background-repeat: repeat
-		}
-
-		.emotsy-row-13 .emotsy-col-2 {
-			background-color: #ffffff;
-			padding-bottom: 5px;
-			padding-top: 5px
-		}
-
-		.emotsy-row-13 .emotsy-col-2 .emotsy-block-2,
-		.emotsy-row-13 .emotsy-col-3 .emotsy-block-2,
-		.emotsy-row-13 .emotsy-col-4 .emotsy-block-2,
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-2,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-2,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-2 {
-			color: #000000;
-			font-family: inherit;
-			font-size: 14px;
-			text-align: center
-		}
-
-		.emotsy-row-13 .emotsy-col-3,
-		.emotsy-row-18 .emotsy-col-2 {
-			background-color: #9ead8d;
-			padding-bottom: 5px;
-			padding-top: 5px
-		}
-
-		.emotsy-row-13 .emotsy-col-4 {
-			background-color: #956d59;
-			padding-bottom: 5px;
-			padding-top: 5px
-		}
-
-		.emotsy-row-15 .emotsy-col-1,
-		.emotsy-row-15 .emotsy-col-3 {
-			border-bottom: 8px solid #171B1B;
-			border-left: 8px solid #171B1B;
-			border-right: 8px solid #171B1B;
-			border-top: 8px solid #171B1B;
-			padding-bottom: 5px;
-			padding-top: 5px
-		}
-
-		.emotsy-row-15 .emotsy-col-2,
-		.emotsy-row-15 .emotsy-col-4 {
-			background-color: #171b1b;
-			border-bottom: 8px solid #F5D3AB;
-			border-left: 8px solid #F5D3AB;
-			border-right: 8px solid #F5D3AB;
-			border-top: 8px solid #F5D3AB;
-			padding-bottom: 5px;
-			padding-top: 5px
-		}
-
-		.emotsy-row-17 .emotsy-col-1 .emotsy-block-3 {
-			padding-bottom: 10px;
 			padding-left: 10px;
-			padding-top: 10px;
+			padding-right: 10px;
 			text-align: center;
 			width: 100%
 		}
 
-		.emotsy-row-18 .emotsy-col-1,
-		.emotsy-row-18 .emotsy-col-3 {
-			background-color: #ffffff;
-			border-bottom: 16px solid #F5D3AB;
-			border-left: 0 solid #F5D3AB;
-			border-right: 0px solid #F5D3AB;
-			border-top: 16px solid #F5D3AB;
-			padding-bottom: 5px;
-			padding-top: 5px
-		}
-
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-1,
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-7,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-1,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-7,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-1 {
-			padding: 25px
-		}
-
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-3,
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-5,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-3,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-5,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-3,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-5 {
-			padding: 25px 10px 20px 20px
-		}
-
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-4,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-4,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-4 {
-			color: #000000;
-			font-family: inherit;
-			font-size: 14px;
-			padding-left: 20px;
-			padding-right: 20px;
+		.bee-row-3 .bee-col-2 .bee-block-5 {
+			padding: 25px;
 			text-align: center
 		}
 
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-6,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-6,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-6 {
-			color: #000000;
-			font-family: inherit;
-			font-size: 14px;
-			padding-left: 20px;
-			text-align: center
-		}
-
-		.emotsy-row-20 {
-			background-color: #001b25;
-			background-repeat: no-repeat
-		}
-
-		.emotsy-row-24,
-		.emotsy-row-24 .emotsy-row-content {
-			background-color: #ffffff;
-			background-repeat: no-repeat
-		}
-
-		.emotsy-row-20 .emotsy-col-1 {
-			padding-top: 5px
-		}
-
-		.emotsy-row-20 .emotsy-col-1 .emotsy-block-7 {
-			padding-left: 25px;
-			padding-right: 25px;
+		.bee-row-3 .bee-col-3 .bee-block-1 {
+			padding-bottom: 25px;
 			padding-top: 25px;
 			width: 100%
 		}
 
-		.emotsy-row-22 .emotsy-col-1 .emotsy-block-1 {
-			padding-bottom: 10px;
-			padding-left: 20px;
-			width: 100%
+		.bee-row-21,
+		.bee-row-5 {
+			background-color: #f9ecdc;
+			background-repeat: no-repeat
 		}
 
-		.emotsy-row-22 .emotsy-col-1 .emotsy-block-2,
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-2,
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-3,
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-4,
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-5,
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-6,
-		.emotsy-row-22 .emotsy-col-3 .emotsy-block-2,
-		.emotsy-row-22 .emotsy-col-3 .emotsy-block-3 {
-			padding: 10px 20px
+		.bee-row-21 .bee-row-content,
+		.bee-row-5 .bee-row-content {
+			background-color: #f9ecdc;
+			background-repeat: no-repeat;
+			color: #000000
 		}
 
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-1,
-		.emotsy-row-22 .emotsy-col-3 .emotsy-block-1,
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-1 {
-			padding-left: 20px;
+		.bee-row-10,
+		.bee-row-11,
+		.bee-row-6,
+		.bee-row-7,
+		.bee-row-8,
+		.bee-row-9 {
+			background-repeat: no-repeat
+		}
+
+		.bee-row-13 .bee-col-2,
+		.bee-row-13 .bee-col-3,
+		.bee-row-6 .bee-col-2,
+		.bee-row-6 .bee-col-3 {
+			padding: 5px
+		}
+
+		.bee-row-10 .bee-col-1 .bee-block-1,
+		.bee-row-10 .bee-col-6 .bee-block-1,
+		.bee-row-13 .bee-col-2 .bee-block-3,
+		.bee-row-6 .bee-col-2 .bee-block-3,
+		.bee-row-7 .bee-col-1 .bee-block-6,
+		.bee-row-8 .bee-col-1 .bee-block-1,
+		.bee-row-8 .bee-col-6 .bee-block-1 {
+			padding: 30px
+		}
+
+		.bee-row-13 .bee-col-3 .bee-block-2,
+		.bee-row-15 .bee-col-2 .bee-block-2,
+		.bee-row-16 .bee-col-1 .bee-block-2,
+		.bee-row-17 .bee-col-2 .bee-block-3,
+		.bee-row-17 .bee-col-3 .bee-block-3,
+		.bee-row-18 .bee-col-1 .bee-block-2,
+		.bee-row-6 .bee-col-3 .bee-block-2,
+		.bee-row-7 .bee-col-1 .bee-block-2 {
+			padding: 10px;
 			text-align: center;
 			width: 100%
 		}
 
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 {
-			font-family: inherit;
-			font-size: 14px;
+		.bee-row-13 .bee-col-3 .bee-block-3,
+		.bee-row-6 .bee-col-3 .bee-block-3 {
+			padding-bottom: 10px;
+			padding-left: 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-6 .bee-col-3 .bee-block-4 {
+			padding: 15px 10px 10px
+		}
+
+		.bee-row-13 .bee-col-3 .bee-block-5,
+		.bee-row-13 .bee-col-3 .bee-block-7,
+		.bee-row-13 .bee-col-3 .bee-block-9,
+		.bee-row-17 .bee-col-2 .bee-block-4,
+		.bee-row-17 .bee-col-3 .bee-block-4,
+		.bee-row-6 .bee-col-3 .bee-block-5,
+		.bee-row-6 .bee-col-3 .bee-block-7 {
+			padding-bottom: 10px;
+			padding-left: 10px;
+			padding-top: 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-13 .bee-col-3 .bee-block-10,
+		.bee-row-13 .bee-col-3 .bee-block-4,
+		.bee-row-13 .bee-col-3 .bee-block-6,
+		.bee-row-13 .bee-col-3 .bee-block-8,
+		.bee-row-15 .bee-col-2 .bee-block-4,
+		.bee-row-17 .bee-col-2 .bee-block-5,
+		.bee-row-17 .bee-col-3 .bee-block-5,
+		.bee-row-6 .bee-col-3 .bee-block-6,
+		.bee-row-6 .bee-col-3 .bee-block-8 {
+			padding: 10px 10px 15px
+		}
+
+		.bee-row-10 .bee-col-2,
+		.bee-row-10 .bee-col-2 .bee-block-2,
+		.bee-row-10 .bee-col-2 .bee-block-4,
+		.bee-row-10 .bee-col-3,
+		.bee-row-10 .bee-col-3 .bee-block-2,
+		.bee-row-10 .bee-col-3 .bee-block-4,
+		.bee-row-10 .bee-col-4,
+		.bee-row-10 .bee-col-4 .bee-block-2,
+		.bee-row-10 .bee-col-4 .bee-block-4,
+		.bee-row-10 .bee-col-5,
+		.bee-row-10 .bee-col-5 .bee-block-2,
+		.bee-row-10 .bee-col-5 .bee-block-4,
+		.bee-row-13 .bee-col-1 .bee-block-1,
+		.bee-row-16 .bee-col-1 .bee-block-4,
+		.bee-row-17 .bee-col-1 .bee-block-1,
+		.bee-row-18 .bee-col-1 .bee-block-4,
+		.bee-row-19 .bee-col-1 .bee-block-1,
+		.bee-row-21 .bee-col-1 .bee-block-3,
+		.bee-row-21 .bee-col-2 .bee-block-2 li,
+		.bee-row-7 .bee-col-1 .bee-block-4,
+		.bee-row-8 .bee-col-2,
+		.bee-row-8 .bee-col-2 .bee-block-2,
+		.bee-row-8 .bee-col-2 .bee-block-4,
+		.bee-row-8 .bee-col-3,
+		.bee-row-8 .bee-col-3 .bee-block-2,
+		.bee-row-8 .bee-col-3 .bee-block-4,
+		.bee-row-8 .bee-col-4,
+		.bee-row-8 .bee-col-4 .bee-block-2,
+		.bee-row-8 .bee-col-4 .bee-block-4,
+		.bee-row-8 .bee-col-5,
+		.bee-row-8 .bee-col-5 .bee-block-2,
+		.bee-row-8 .bee-col-5 .bee-block-4 {
 			padding: 10px
 		}
 
-		.emotsy-row-24 .emotsy-row-content {
+		.bee-row-10 .bee-col-2 .bee-block-5,
+		.bee-row-10 .bee-col-3 .bee-block-5,
+		.bee-row-10 .bee-col-4 .bee-block-5,
+		.bee-row-10 .bee-col-5 .bee-block-5,
+		.bee-row-15 .bee-col-2 .bee-block-5,
+		.bee-row-17 .bee-col-2 .bee-block-6,
+		.bee-row-17 .bee-col-3 .bee-block-6,
+		.bee-row-21 .bee-col-1 .bee-block-4,
+		.bee-row-7 .bee-col-1 .bee-block-5,
+		.bee-row-8 .bee-col-2 .bee-block-5,
+		.bee-row-8 .bee-col-3 .bee-block-5,
+		.bee-row-8 .bee-col-4 .bee-block-5,
+		.bee-row-8 .bee-col-5 .bee-block-5 {
+			padding: 10px;
+			text-align: center
+		}
+
+		.bee-row-10 .bee-col-2 .bee-block-3,
+		.bee-row-10 .bee-col-3 .bee-block-3,
+		.bee-row-10 .bee-col-4 .bee-block-3,
+		.bee-row-10 .bee-col-5 .bee-block-3,
+		.bee-row-8 .bee-col-2 .bee-block-3,
+		.bee-row-8 .bee-col-3 .bee-block-3,
+		.bee-row-8 .bee-col-4 .bee-block-3,
+		.bee-row-8 .bee-col-5 .bee-block-3 {
+			padding: 5px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-12,
+		.bee-row-13,
+		.bee-row-14,
+		.bee-row-22 {
+			background-color: #ffffff;
+			background-repeat: no-repeat
+		}
+
+		.bee-row-12 .bee-row-content,
+		.bee-row-13 .bee-row-content,
+		.bee-row-14 .bee-row-content,
+		.bee-row-22 .bee-row-content {
+			background-color: #ffffff;
+			background-repeat: no-repeat;
 			color: #000000
 		}
 
-		.emotsy-row-24 .emotsy-col-1 .emotsy-block-1 {
+		.bee-row-15 .bee-col-1,
+		.bee-row-15 .bee-col-2,
+		.bee-row-15 .bee-col-3,
+		.bee-row-17 .bee-col-1 {
+			padding-top: 5px
+		}
+
+		.bee-row-19 .bee-col-2 .bee-block-2,
+		.bee-row-19 .bee-col-3 .bee-block-2 {
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-19 .bee-col-2 .bee-block-3,
+		.bee-row-19 .bee-col-3 .bee-block-3 {
+			padding: 20px 15px
+		}
+
+		.bee-row-21 .bee-col-1 {
+			padding-bottom: 25px;
+			padding-top: 10px
+		}
+
+		.bee-row-21 .bee-col-2 .bee-block-2 {
+			color: #171719;
+			font-family: inherit;
+			font-size: 14px;
+			letter-spacing: 1px;
+			text-align: left
+		}
+
+		.bee-row-21 .bee-col-3 {
+			padding-bottom: 20px;
+			padding-top: 25px
+		}
+
+		.bee-row-21 .bee-col-3 .bee-block-2 {
+			padding-left: 20px;
+			padding-right: 20px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-21 .bee-col-3 .bee-block-3 {
+			font-family: inherit;
+			font-size: 12px;
+			padding: 10px
+		}
+
+		.bee-row-22 .bee-col-1 .bee-block-1 {
 			color: #1e0e4b;
 			font-family: Inter, sans-serif;
 			font-size: 15px;
@@ -740,650 +618,418 @@
 			text-align: center
 		}
 
-		.emotsy-row-2 .emotsy-col-1 .emotsy-block-1 .emotsy-icon-image {
-			padding: 10px 5px 5px 15px
+		.bee-row-3 .bee-col-2 .bee-block-2 h1 {
+			color: #ae1731;
+			font-size: 43px;
+			letter-spacing: normal;
+			text-align: center
 		}
 
-		.emotsy-row-13 .emotsy-col-2 .emotsy-block-2 .emotsy-icon:not(.emotsy-icon-first) .emotsy-content,
-		.emotsy-row-13 .emotsy-col-3 .emotsy-block-2 .emotsy-icon:not(.emotsy-icon-first) .emotsy-content,
-		.emotsy-row-13 .emotsy-col-4 .emotsy-block-2 .emotsy-icon:not(.emotsy-icon-first) .emotsy-content,
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-2 .emotsy-icon:not(.emotsy-icon-first) .emotsy-content,
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-4 .emotsy-icon:not(.emotsy-icon-first) .emotsy-content,
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-6 .emotsy-icon:not(.emotsy-icon-first) .emotsy-content,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-2 .emotsy-icon:not(.emotsy-icon-first) .emotsy-content,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-4 .emotsy-icon:not(.emotsy-icon-first) .emotsy-content,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-6 .emotsy-icon:not(.emotsy-icon-first) .emotsy-content,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-2 .emotsy-icon:not(.emotsy-icon-first) .emotsy-content,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-4 .emotsy-icon:not(.emotsy-icon-first) .emotsy-content,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-6 .emotsy-icon:not(.emotsy-icon-first) .emotsy-content,
-		.emotsy-row-2 .emotsy-col-1 .emotsy-block-1 .emotsy-icon:not(.emotsy-icon-first) .emotsy-content,
-		.emotsy-row-24 .emotsy-col-1 .emotsy-block-1 .emotsy-icon:not(.emotsy-icon-first) .emotsy-content {
-			margin-left: 0
+		.bee-row-3 .bee-col-2 .bee-block-3,
+		.bee-row-7 .bee-col-1 .bee-block-4 {
+			color: #171719;
+			font-size: 17px;
+			line-height: 150%;
+			text-align: center
 		}
 
-		.emotsy-row-2 .emotsy-col-1 .emotsy-block-1 .emotsy-icon::not(.emotsy-icon-last) .emotsy-content {
-			margin-right: 0
+		.bee-row-13 .bee-col-3 .bee-block-10 p:not(:last-child),
+		.bee-row-13 .bee-col-3 .bee-block-4 p:not(:last-child),
+		.bee-row-13 .bee-col-3 .bee-block-6 p:not(:last-child),
+		.bee-row-13 .bee-col-3 .bee-block-8 p:not(:last-child),
+		.bee-row-15 .bee-col-2 .bee-block-4 p:not(:last-child),
+		.bee-row-17 .bee-col-2 .bee-block-5 p:not(:last-child),
+		.bee-row-17 .bee-col-3 .bee-block-5 p:not(:last-child),
+		.bee-row-3 .bee-col-2 .bee-block-3 p:not(:last-child),
+		.bee-row-6 .bee-col-3 .bee-block-4 p:not(:last-child),
+		.bee-row-6 .bee-col-3 .bee-block-6 p:not(:last-child),
+		.bee-row-6 .bee-col-3 .bee-block-8 p:not(:last-child),
+		.bee-row-7 .bee-col-1 .bee-block-4 p:not(:last-child) {
+			margin-bottom: undefined
 		}
 
-		.emotsy-row-13 .emotsy-col-2 .emotsy-block-2 .emotsy-icon-label a,
-		.emotsy-row-13 .emotsy-col-3 .emotsy-block-2 .emotsy-icon-label a,
-		.emotsy-row-13 .emotsy-col-4 .emotsy-block-2 .emotsy-icon-label a,
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-2 .emotsy-icon-label a,
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-4 .emotsy-icon-label a,
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-6 .emotsy-icon-label a,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-2 .emotsy-icon-label a,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-4 .emotsy-icon-label a,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-6 .emotsy-icon-label a,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-2 .emotsy-icon-label a,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-4 .emotsy-icon-label a,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-6 .emotsy-icon-label a,
-		.emotsy-row-2 .emotsy-col-1 .emotsy-block-1 .emotsy-icon-label a {
-			color: #000000
+		.bee-row-3 .bee-col-2 .bee-block-4 h1 {
+			color: #171719;
+			font-size: 30px;
+			letter-spacing: 1px;
+			text-align: center
 		}
 
-		.emotsy-row-4 .emotsy-col-1 .emotsy-block-3 h1 {
-			color: #ffffff;
+		.bee-row-3 .bee-col-2 .bee-block-5 a {
+			border-bottom: 1px solid #171719;
+			border-left: 1px solid #171719;
+			border-radius: 4px;
+			border-right: 1px solid #171719;
+			border-top: 1px solid #171719;
+			color: #171719;
 			direction: ltr;
-			font-family: "Permanent Marker", Impact, Charcoal, sans-serif;
-			font-size: 62px;
+			font-family: inherit;
+			font-size: 16px;
+			line-height: 200%;
+			padding: 5px 30px;
+			width: auto
+		}
+
+		.bee-row-13 .bee-col-3 .bee-block-2 h2,
+		.bee-row-6 .bee-col-3 .bee-block-2 h2 {
+			color: #ae1731;
+			direction: ltr;
+			font-family: Cabin, Arial, Helvetica Neue, Helvetica, sans-serif;
+			font-size: 15px;
+			font-weight: 400;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-13 .bee-col-3 .bee-block-3 h1,
+		.bee-row-6 .bee-col-3 .bee-block-3 h1 {
+			color: #171719;
+			direction: ltr;
+			font-family: "Abril Fatface", Arial, "Helvetica Neue", Helvetica, sans-serif;
+			font-size: 40px;
+			font-weight: 400;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-13 .bee-col-3 .bee-block-10,
+		.bee-row-13 .bee-col-3 .bee-block-4,
+		.bee-row-13 .bee-col-3 .bee-block-6,
+		.bee-row-13 .bee-col-3 .bee-block-8,
+		.bee-row-6 .bee-col-3 .bee-block-4,
+		.bee-row-6 .bee-col-3 .bee-block-6,
+		.bee-row-6 .bee-col-3 .bee-block-8 {
+			color: #393d47;
+			font-size: 14px;
+			line-height: 150%;
+			text-align: left
+		}
+
+		.bee-row-13 .bee-col-3 .bee-block-5 h1,
+		.bee-row-13 .bee-col-3 .bee-block-7 h1,
+		.bee-row-13 .bee-col-3 .bee-block-9 h1,
+		.bee-row-6 .bee-col-3 .bee-block-5 h1,
+		.bee-row-6 .bee-col-3 .bee-block-7 h1 {
+			color: #171719;
+			direction: ltr;
+			font-family: "Abril Fatface", Arial, "Helvetica Neue", Helvetica, sans-serif;
+			font-size: 20px;
+			font-weight: 400;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-15 .bee-col-2 .bee-block-2 h2,
+		.bee-row-16 .bee-col-1 .bee-block-2 h2,
+		.bee-row-17 .bee-col-2 .bee-block-3 h2,
+		.bee-row-17 .bee-col-3 .bee-block-3 h2,
+		.bee-row-18 .bee-col-1 .bee-block-2 h2,
+		.bee-row-7 .bee-col-1 .bee-block-2 h2 {
+			color: #ae1731;
+			direction: ltr;
+			font-family: Cabin, Arial, Helvetica Neue, Helvetica, sans-serif;
+			font-size: 15px;
 			font-weight: 400;
 			letter-spacing: normal;
 			line-height: 120%;
 			text-align: center
 		}
 
-		.emotsy-row-4 .emotsy-col-1 .emotsy-block-4 {
-			color: #f5f5f5;
-			font-size: 26px;
-			line-height: 150%;
+		.bee-row-15 .bee-col-2 .bee-block-3 h1,
+		.bee-row-16 .bee-col-1 .bee-block-3 h1,
+		.bee-row-7 .bee-col-1 .bee-block-3 h1 {
+			color: #171719;
+			direction: ltr;
+			font-family: "Abril Fatface", Arial, "Helvetica Neue", Helvetica, sans-serif;
+			font-size: 40px;
+			font-weight: 400;
+			letter-spacing: normal;
+			line-height: 120%;
 			text-align: center
 		}
 
-		.emotsy-row-11 .emotsy-col-1 .emotsy-block-3 a,
-		.emotsy-row-11 .emotsy-col-1 .emotsy-block-5 a,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-11 a,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-2 a,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-4 a,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-9 a,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-11 a,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-2 a,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-4 a,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-9 a,
-		.emotsy-row-13 .emotsy-col-2 .emotsy-block-4 a,
-		.emotsy-row-13 .emotsy-col-3 .emotsy-block-4 a,
-		.emotsy-row-13 .emotsy-col-4 .emotsy-block-4 a,
-		.emotsy-row-14 .emotsy-col-1 .emotsy-block-2 a,
-		.emotsy-row-14 .emotsy-col-1 .emotsy-block-4 a,
-		.emotsy-row-15 .emotsy-col-1 .emotsy-block-3 a,
-		.emotsy-row-15 .emotsy-col-2 .emotsy-block-3 a,
-		.emotsy-row-15 .emotsy-col-3 .emotsy-block-3 a,
-		.emotsy-row-15 .emotsy-col-4 .emotsy-block-3 a,
-		.emotsy-row-17 .emotsy-col-1 .emotsy-block-2 a,
-		.emotsy-row-17 .emotsy-col-1 .emotsy-block-4 a,
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-3 a,
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-5 a,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-3 a,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-5 a,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-3 a,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-5 a,
-		.emotsy-row-20 .emotsy-col-1 .emotsy-block-2 a,
-		.emotsy-row-20 .emotsy-col-1 .emotsy-block-4 a,
-		.emotsy-row-4 .emotsy-col-1 .emotsy-block-4 a,
-		.emotsy-row-4 .emotsy-col-1 .emotsy-block-6 a,
-		.emotsy-row-5 .emotsy-col-2 .emotsy-block-2 a,
-		.emotsy-row-5 .emotsy-col-2 .emotsy-block-4 a,
-		.emotsy-row-6 .emotsy-col-1 .emotsy-block-2 a,
-		.emotsy-row-6 .emotsy-col-1 .emotsy-block-4 a,
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-2 a,
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-4 a,
-		.emotsy-row-9 .emotsy-col-1 .emotsy-block-1 a {
-			color: #8a3b8f
+		.bee-row-10 .bee-col-2 .bee-block-3 h1,
+		.bee-row-10 .bee-col-3 .bee-block-3 h1,
+		.bee-row-10 .bee-col-4 .bee-block-3 h1,
+		.bee-row-10 .bee-col-5 .bee-block-3 h1,
+		.bee-row-8 .bee-col-2 .bee-block-3 h1,
+		.bee-row-8 .bee-col-3 .bee-block-3 h1,
+		.bee-row-8 .bee-col-4 .bee-block-3 h1,
+		.bee-row-8 .bee-col-5 .bee-block-3 h1 {
+			color: #ae1731;
+			direction: ltr;
+			font-family: "Abril Fatface", Arial, "Helvetica Neue", Helvetica, sans-serif;
+			font-size: 26px;
+			font-weight: 400;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
 		}
 
-		.emotsy-row-11 .emotsy-col-1 .emotsy-block-3 p:not(:last-child),
-		.emotsy-row-11 .emotsy-col-1 .emotsy-block-5 p:not(:last-child),
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-11 p:not(:last-child),
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-2 p:not(:last-child),
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-4 p:not(:last-child),
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-9 p:not(:last-child),
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-11 p:not(:last-child),
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-2 p:not(:last-child),
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-4 p:not(:last-child),
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-9 p:not(:last-child),
-		.emotsy-row-13 .emotsy-col-2 .emotsy-block-4 p:not(:last-child),
-		.emotsy-row-13 .emotsy-col-3 .emotsy-block-4 p:not(:last-child),
-		.emotsy-row-13 .emotsy-col-4 .emotsy-block-4 p:not(:last-child),
-		.emotsy-row-14 .emotsy-col-1 .emotsy-block-2 p:not(:last-child),
-		.emotsy-row-14 .emotsy-col-1 .emotsy-block-4 p:not(:last-child),
-		.emotsy-row-15 .emotsy-col-1 .emotsy-block-3 p:not(:last-child),
-		.emotsy-row-15 .emotsy-col-2 .emotsy-block-3 p:not(:last-child),
-		.emotsy-row-15 .emotsy-col-3 .emotsy-block-3 p:not(:last-child),
-		.emotsy-row-15 .emotsy-col-4 .emotsy-block-3 p:not(:last-child),
-		.emotsy-row-17 .emotsy-col-1 .emotsy-block-2 p:not(:last-child),
-		.emotsy-row-17 .emotsy-col-1 .emotsy-block-4 p:not(:last-child),
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-3 p:not(:last-child),
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-5 p:not(:last-child),
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-3 p:not(:last-child),
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-5 p:not(:last-child),
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-3 p:not(:last-child),
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-5 p:not(:last-child),
-		.emotsy-row-20 .emotsy-col-1 .emotsy-block-2 p:not(:last-child),
-		.emotsy-row-20 .emotsy-col-1 .emotsy-block-4 p:not(:last-child),
-		.emotsy-row-22 .emotsy-col-1 .emotsy-block-2 p:not(:last-child),
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-2 p:not(:last-child),
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-3 p:not(:last-child),
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-4 p:not(:last-child),
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-5 p:not(:last-child),
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-6 p:not(:last-child),
-		.emotsy-row-22 .emotsy-col-3 .emotsy-block-2 p:not(:last-child),
-		.emotsy-row-22 .emotsy-col-3 .emotsy-block-3 p:not(:last-child),
-		.emotsy-row-4 .emotsy-col-1 .emotsy-block-4 p:not(:last-child),
-		.emotsy-row-4 .emotsy-col-1 .emotsy-block-6 p:not(:last-child),
-		.emotsy-row-5 .emotsy-col-2 .emotsy-block-2 p:not(:last-child),
-		.emotsy-row-5 .emotsy-col-2 .emotsy-block-4 p:not(:last-child),
-		.emotsy-row-6 .emotsy-col-1 .emotsy-block-2 p:not(:last-child),
-		.emotsy-row-6 .emotsy-col-1 .emotsy-block-4 p:not(:last-child),
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-2 p:not(:last-child),
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-4 p:not(:last-child),
-		.emotsy-row-9 .emotsy-col-1 .emotsy-block-1 p:not(:last-child) {
-			margin-bottom: undefined
-		}
-
-		.emotsy-row-4 .emotsy-col-1 .emotsy-block-5 div {
-			background-color: #ffd8d8;
-			border-bottom: 1px solid #C92727;
-			border-left: 1px solid #C92727;
+		.bee-row-10 .bee-col-2 .bee-block-5 a,
+		.bee-row-10 .bee-col-3 .bee-block-5 a,
+		.bee-row-10 .bee-col-4 .bee-block-5 a,
+		.bee-row-10 .bee-col-5 .bee-block-5 a,
+		.bee-row-8 .bee-col-2 .bee-block-5 a,
+		.bee-row-8 .bee-col-3 .bee-block-5 a,
+		.bee-row-8 .bee-col-4 .bee-block-5 a,
+		.bee-row-8 .bee-col-5 .bee-block-5 a {
+			background-color: #ffffff;
+			border-bottom: 0 solid #171719;
+			border-left: 0 solid #171719;
 			border-radius: 4px;
-			border-right: 1px solid #C92727;
-			border-top: 1px solid #C92727;
-			color: #c92727;
+			border-right: 0px solid #171719;
+			border-top: 0 solid #171719;
+			color: #171719;
 			direction: ltr;
 			font-family: inherit;
-			font-size: 22px;
+			font-size: 16px;
 			line-height: 200%;
-			padding: 5px 40px;
+			padding: 5px 20px;
 			width: auto
 		}
 
-		.emotsy-row-4 .emotsy-col-1 .emotsy-block-6 {
-			color: #f5f5f5;
-			font-size: 15px;
+		.bee-row-15 .bee-col-2 .bee-block-5 a,
+		.bee-row-7 .bee-col-1 .bee-block-5 div {
+			background-color: #ae1731;
+			border-bottom: 0 solid #8a3b8f;
+			border-left: 0 solid #8a3b8f;
+			border-radius: 4px;
+			border-right: 0px solid #8a3b8f;
+			border-top: 0 solid #8a3b8f;
+			color: #ffffff;
+			direction: ltr;
+			font-family: inherit;
+			font-size: 16px;
+			line-height: 200%;
+			padding: 10px 30px;
+			width: auto
+		}
+
+		.bee-row-15 .bee-col-2 .bee-block-4,
+		.bee-row-17 .bee-col-2 .bee-block-5,
+		.bee-row-17 .bee-col-3 .bee-block-5 {
+			color: #393d47;
+			font-size: 14px;
 			line-height: 150%;
 			text-align: center
 		}
 
-		.emotsy-row-11 .emotsy-col-1 .emotsy-block-3,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-2,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-9,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-2,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-9,
-		.emotsy-row-5 .emotsy-col-2 .emotsy-block-2,
-		.emotsy-row-6 .emotsy-col-1 .emotsy-block-2 {
-			color: #bf0000;
+		.bee-row-17 .bee-col-2 .bee-block-4 h1,
+		.bee-row-17 .bee-col-3 .bee-block-4 h1 {
+			color: #171719;
+			direction: ltr;
+			font-family: "Abril Fatface", Arial, "Helvetica Neue", Helvetica, sans-serif;
+			font-size: 20px;
+			font-weight: 400;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-17 .bee-col-2 .bee-block-6 a,
+		.bee-row-17 .bee-col-3 .bee-block-6 a {
+			border-bottom: 1px solid #171719;
+			border-left: 1px solid #171719;
+			border-radius: 4px;
+			border-right: 1px solid #171719;
+			border-top: 1px solid #171719;
+			color: #171719;
+			direction: ltr;
+			font-family: inherit;
 			font-size: 16px;
-			line-height: 150%;
-			text-align: left
+			line-height: 200%;
+			padding: 5px 20px;
+			width: auto
 		}
 
-		.emotsy-row-2 .emotsy-col-2 .emotsy-block-1 li {
-			padding: 5px 10px 5px 15px
+		.bee-row-18 .bee-col-1 .bee-block-3 h1 {
+			color: #171719;
+			direction: ltr;
+			font-family: "Abril Fatface", Arial, "Helvetica Neue", Helvetica, sans-serif;
+			font-size: 39px;
+			font-weight: 400;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
 		}
 
-		.emotsy-row-2 .emotsy-col-2 .emotsy-block-1 li a {
-			color: #171b1b
+		.bee-row-19 .bee-col-2 .bee-block-2 h1,
+		.bee-row-19 .bee-col-3 .bee-block-2 h1,
+		.bee-row-21 .bee-col-3 .bee-block-2 h2 {
+			direction: ltr;
+			font-family: Cabin, Arial, Helvetica Neue, Helvetica, sans-serif;
+			font-weight: 400;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-19 .bee-col-2 .bee-block-2 h1,
+		.bee-row-19 .bee-col-3 .bee-block-2 h1 {
+			color: #171719;
+			font-size: 49px;
+			letter-spacing: 3px
+		}
+
+		.bee-row-21 .bee-col-3 .bee-block-2 h2 {
+			color: #981511;
+			font-size: 20px;
+			letter-spacing: normal
+		}
+
+		.bee-row-22 .bee-col-1 .bee-block-1 .bee-icon-image {
+			padding: 5px 6px 5px 5px
+		}
+
+		.bee-row-22 .bee-col-1 .bee-block-1 .bee-icon:not(.bee-icon-first) .bee-content {
+			margin-left: 0
+		}
+
+		.bee-row-22 .bee-col-1 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-22 .bee-col-1 .bee-block-1 .bee-icon-label a {
+			color: #1e0e4b
 		}
 
 		@media (max-width:768px) {
-			.emotsy-form form {
+			.bee-form form {
 				width: 100% !important
 			}
 
-			img.emotsy-fullwidthOnMobile {
+			img.bee-fullwidthOnMobile {
 				max-width: none !important
 			}
 
-			.emotsy-menu ul.with-emotsy-hamburger {
+			.bee-menu ul.with-bee-hamburger {
 				display: none;
 				padding: 5px 0;
 				position: relative;
 				top: -4px
 			}
 
-			.emotsy-menu ul.with-emotsy-hamburger li {
+			.bee-menu ul.with-bee-hamburger li {
 				display: block;
 				text-align: center
 			}
 
-			.emotsy-menu ul.with-emotsy-hamburger li a {
+			.bee-menu ul.with-bee-hamburger li a {
 				text-decoration: none
 			}
 
-			.emotsy-menu ul.with-emotsy-hamburger span {
+			.bee-menu ul.with-bee-hamburger span {
 				display: none
 			}
 
-			#emotsy-hamburger-memu-r1c1m0:checked~ul,
-			.emotsy-row-content:not(.no_stack) {
+			#bee-hamburger-memu-r0c2m1:checked~ul,
+			.bee-row-content:not(.no_stack) {
 				display: block
 			}
 
-			.emotsy-row-2 .emotsy-col-2 .emotsy-block-1 .emotsy-hamburger-controls {
+			.bee-row-1 .bee-col-3 .bee-block-2 .bee-hamburger-controls,
+			.bee-row-21 .bee-col-2 .bee-block-2 .bee-hamburger-controls {
 				width: 36px;
 				height: 36px;
-				background-color: #171b1b;
+				background-color: #ffffff;
 				border-radius: 0
 			}
 
-			.emotsy-row-2 .emotsy-col-2 .emotsy-block-1 .emotsy-hamburger-controls span {
+			.bee-row-1 .bee-col-3 .bee-block-2 .bee-hamburger-controls span,
+			.bee-row-21 .bee-col-2 .bee-block-2 .bee-hamburger-controls span {
 				width: 18px;
 				height: 18px
 			}
 
-			.emotsy-row-2 .emotsy-col-2 .emotsy-block-1 .emotsy-hamburger-controls span.emotsy-hamburger-open {
-				background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjZmZmZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgd2lkdGg9IjY0IiB5PSI1MiIvPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiIHk9IjI2Ii8+PC9nPjwvc3ZnPg==");
+			.bee-row-1 .bee-col-3 .bee-block-2 .bee-hamburger-controls span.bee-hamburger-open,
+			.bee-row-21 .bee-col-2 .bee-block-2 .bee-hamburger-controls span.bee-hamburger-open {
+				background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjMTcxNzE5IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgd2lkdGg9IjY0IiB5PSI1MiIvPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiIHk9IjI2Ii8+PC9nPjwvc3ZnPg==");
 				transform: translate(-50%, -50%) scaleY(1)
 			}
 
-			.emotsy-row-2 .emotsy-col-2 .emotsy-block-1 .emotsy-hamburger-controls span.emotsy-hamburger-close {
-				background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjZmZmZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB0cmFuc2Zvcm09Im1hdHJpeCgtLjcwNzEwNjc4IC0uNzA3MTA2NzggLjcwNzEwNjc4IC0uNzA3MTA2NzggMzEuOTkxMzc4IDc3LjIzNDAxOSkiIHdpZHRoPSI4MiIgeD0iLTkuMDA4NjIyIiB5PSIyNS45OTEzNzgiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgdHJhbnNmb3JtPSJtYXRyaXgoLS43MDcxMDY3OCAuNzA3MTA2NzggLS43MDcxMDY3OCAtLjcwNzEwNjc4IDc3LjgxOTgwNiAzMi4yMzQwMTkpIiB3aWR0aD0iODIiIHg9Ii04Ljc2NTk4MSIgeT0iMjYuMjM0MDE5Ii8+PC9nPjwvc3ZnPg==");
+			.bee-row-1 .bee-col-3 .bee-block-2 .bee-hamburger-controls span.bee-hamburger-close,
+			.bee-row-21 .bee-col-2 .bee-block-2 .bee-hamburger-controls span.bee-hamburger-close {
+				background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjMTcxNzE5IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB0cmFuc2Zvcm09Im1hdHJpeCgtLjcwNzEwNjc4IC0uNzA3MTA2NzggLjcwNzEwNjc4IC0uNzA3MTA2NzggMzEuOTkxMzc4IDc3LjIzNDAxOSkiIHdpZHRoPSI4MiIgeD0iLTkuMDA4NjIyIiB5PSIyNS45OTEzNzgiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgdHJhbnNmb3JtPSJtYXRyaXgoLS43MDcxMDY3OCAuNzA3MTA2NzggLS43MDcxMDY3OCAtLjcwNzEwNjc4IDc3LjgxOTgwNiAzMi4yMzQwMTkpIiB3aWR0aD0iODIiIHg9Ii04Ljc2NTk4MSIgeT0iMjYuMjM0MDE5Ii8+PC9nPjwvc3ZnPg==");
 				transform: translate(-50%, -50%) scaleY(0)
 			}
 
-			.emotsy-row-2 .emotsy-col-2 .emotsy-block-1 ul.with-emotsy-hamburger {
-				background-color: #171b1b
+			.bee-row-1 .bee-col-3 .bee-block-2 ul.with-bee-hamburger,
+			.bee-row-21 .bee-col-2 .bee-block-2 ul.with-bee-hamburger {
+				background-color: #ffffff
 			}
 
-			.emotsy-row-2 .emotsy-col-2 .emotsy-block-1 ul.with-emotsy-hamburger li,
-			.emotsy-row-2 .emotsy-col-2 .emotsy-block-1 ul.with-emotsy-hamburger li a {
-				color: #ffffff
+			.bee-row-1 .bee-col-3 .bee-block-2 ul.with-bee-hamburger li,
+			.bee-row-1 .bee-col-3 .bee-block-2 ul.with-bee-hamburger li a,
+			.bee-row-21 .bee-col-2 .bee-block-2 ul.with-bee-hamburger li,
+			.bee-row-21 .bee-col-2 .bee-block-2 ul.with-bee-hamburger li a {
+				color: #171719
 			}
 
-			#emotsy-hamburger-memu-r1c1m0:checked~.emotsy-hamburger-controls .emotsy-hamburger-open {
+			#bee-hamburger-memu-r0c2m1:checked~.bee-hamburger-controls .bee-hamburger-open {
 				transform: translate(-50%, -50%) scaleY(0)
 			}
 
-			#emotsy-hamburger-memu-r1c1m0:checked~.emotsy-hamburger-controls .emotsy-hamburger-close {
+			#bee-hamburger-memu-r0c2m1:checked~.bee-hamburger-controls .bee-hamburger-close {
 				transform: translate(-50%, -50%) scaleY(1)
 			}
 		}
 
-		.emotsy-row-5 .emotsy-col-2 .emotsy-block-3 h1,
-		.emotsy-row-6 .emotsy-col-1 .emotsy-block-3 h1 {
-			color: #333333;
-			direction: ltr;
-			font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-			font-size: 62px;
-			font-weight: 400;
-			letter-spacing: normal;
-			line-height: 120%;
-			text-align: left
-		}
-
-		.emotsy-row-11 .emotsy-col-1 .emotsy-block-5,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-11,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-4,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-11,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-4,
-		.emotsy-row-5 .emotsy-col-2 .emotsy-block-4,
-		.emotsy-row-6 .emotsy-col-1 .emotsy-block-4 {
-			color: #333333;
-			font-size: 20px;
-			line-height: 150%;
-			text-align: left
-		}
-
-		.emotsy-row-11 .emotsy-col-1 .emotsy-block-6 div,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-12 a,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-5 a,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-12 a,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-5 a,
-		.emotsy-row-15 .emotsy-col-1 .emotsy-block-5 a,
-		.emotsy-row-15 .emotsy-col-3 .emotsy-block-5 a,
-		.emotsy-row-5 .emotsy-col-2 .emotsy-block-6 a,
-		.emotsy-row-6 .emotsy-col-1 .emotsy-block-6 a {
-			background-color: #171b1b;
-			border-bottom: 1px solid #171B1B;
-			border-left: 1px solid #171B1B;
-			border-radius: 4px;
-			border-right: 1px solid #171B1B;
-			border-top: 1px solid #171B1B;
-			color: #ffffff;
-			direction: ltr;
-			font-family: inherit;
-			font-size: 16px;
-			line-height: 200%;
-			padding: 5px 40px;
-			width: auto
-		}
-
-		.emotsy-row-15 .emotsy-col-2 .emotsy-block-5 a,
-		.emotsy-row-15 .emotsy-col-4 .emotsy-block-5 a,
-		.emotsy-row-20 .emotsy-col-1 .emotsy-block-5 a,
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-6 a {
-			background-color: #c92727;
-			border-bottom: 1px solid #C92727;
-			border-left: 1px solid #C92727;
-			border-right: 1px solid #C92727;
-			border-top: 1px solid #C92727;
-			width: auto;
-			border-radius: 4px
-		}
-
-		.emotsy-row-14 .emotsy-col-1 .emotsy-block-2,
-		.emotsy-row-17 .emotsy-col-1 .emotsy-block-2,
-		.emotsy-row-20 .emotsy-col-1 .emotsy-block-2,
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-2 {
-			color: #bf0000;
-			font-size: 16px;
-			line-height: 150%;
-			text-align: center
-		}
-
-		.emotsy-row-20 .emotsy-col-1 .emotsy-block-3 h1,
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-3 h1 {
-			color: #ffffff;
-			direction: ltr;
-			font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-			font-size: 62px;
-			font-weight: 400;
-			letter-spacing: normal;
-			line-height: 120%;
-			text-align: center
-		}
-
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-4 {
-			color: #c2c2c2;
-			font-size: 16px;
-			line-height: 150%;
-			text-align: center
-		}
-
-		.emotsy-row-20 .emotsy-col-1 .emotsy-block-5 a,
-		.emotsy-row-8 .emotsy-col-1 .emotsy-block-6 a {
-			color: #ffffff;
-			direction: ltr;
-			font-family: inherit;
-			font-size: 16px;
-			line-height: 200%;
-			padding: 5px 40px
-		}
-
-		.emotsy-row-11 .emotsy-col-1 .emotsy-block-4 h1,
-		.emotsy-row-13 .emotsy-col-2 .emotsy-block-3 h1,
-		.emotsy-row-13 .emotsy-col-3 .emotsy-block-3 h1,
-		.emotsy-row-13 .emotsy-col-4 .emotsy-block-3 h1,
-		.emotsy-row-14 .emotsy-col-1 .emotsy-block-3 h1,
-		.emotsy-row-9 .emotsy-col-1 .emotsy-block-2 h1 {
-			font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-			line-height: 120%;
-			letter-spacing: normal;
-			direction: ltr;
-			font-weight: 400
-		}
-
-		.emotsy-row-9 .emotsy-col-1 .emotsy-block-2 h1 {
-			color: #ffffff;
-			font-size: 56px;
-			text-align: left
-		}
-
-		.emotsy-row-9 .emotsy-col-1 .emotsy-block-1 {
-			color: #ffffff;
-			font-size: 20px;
-			line-height: 150%;
-			text-align: left
-		}
-
-		.emotsy-row-11 .emotsy-col-1 .emotsy-block-4 h1 {
-			color: #333333;
-			font-size: 47px;
-			text-align: left
-		}
-
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-10 h1,
-		.emotsy-row-11 .emotsy-col-2 .emotsy-block-3 h1,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-10 h1,
-		.emotsy-row-11 .emotsy-col-3 .emotsy-block-3 h1 {
-			color: #171b1b;
-			direction: ltr;
-			font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-			font-size: 32px;
-			font-weight: 400;
-			letter-spacing: normal;
-			line-height: 120%;
-			text-align: left
-		}
-
-		.emotsy-row-13 .emotsy-col-2 .emotsy-block-2 .emotsy-icon::not(.emotsy-icon-last) .emotsy-content {
-			margin-right: 0
-		}
-
-		.emotsy-row-13 .emotsy-col-2 .emotsy-block-3 h1,
-		.emotsy-row-13 .emotsy-col-3 .emotsy-block-3 h1,
-		.emotsy-row-13 .emotsy-col-4 .emotsy-block-3 h1 {
-			color: #171b1b;
-			font-size: 32px;
-			text-align: center
-		}
-
-		.emotsy-row-13 .emotsy-col-2 .emotsy-block-4,
-		.emotsy-row-13 .emotsy-col-3 .emotsy-block-4,
-		.emotsy-row-13 .emotsy-col-4 .emotsy-block-4,
-		.emotsy-row-14 .emotsy-col-1 .emotsy-block-4,
-		.emotsy-row-15 .emotsy-col-1 .emotsy-block-3,
-		.emotsy-row-17 .emotsy-col-1 .emotsy-block-4,
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-3,
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-5,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-3,
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-5,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-3,
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-5 {
-			color: #333333;
-			font-size: 20px;
-			line-height: 150%;
-			text-align: center
-		}
-
-		.emotsy-row-13 .emotsy-col-3 .emotsy-block-2 .emotsy-icon::not(.emotsy-icon-last) .emotsy-content {
-			margin-right: 0
-		}
-
-		.emotsy-row-13 .emotsy-col-4 .emotsy-block-2 .emotsy-icon::not(.emotsy-icon-last) .emotsy-content {
-			margin-right: 0
-		}
-
-		.emotsy-row-14 .emotsy-col-1 .emotsy-block-3 h1 {
-			color: #333333;
-			font-size: 62px;
-			text-align: center
-		}
-
-		.emotsy-row-15 .emotsy-col-2 .emotsy-block-3,
-		.emotsy-row-15 .emotsy-col-4 .emotsy-block-3 {
-			color: #e9e9e9;
-			font-size: 20px;
-			line-height: 150%;
-			text-align: center
-		}
-
-		.emotsy-row-15 .emotsy-col-3 .emotsy-block-3 {
-			color: #333333;
-			font-size: 22px;
-			line-height: 150%;
-			text-align: center
-		}
-
-		.emotsy-row-15 .emotsy-col-2 .emotsy-block-5 a,
-		.emotsy-row-15 .emotsy-col-4 .emotsy-block-5 a {
-			color: #ffffff;
-			direction: ltr;
-			font-family: inherit;
-			font-size: 16px;
-			line-height: 200%;
-			padding: 5px 20px
-		}
-
-		.emotsy-row-17 .emotsy-col-1 .emotsy-block-3 h1 {
-			color: #333333;
-			direction: ltr;
-			font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-			font-size: 59px;
-			font-weight: 400;
-			letter-spacing: normal;
-			line-height: 120%;
-			text-align: center
-		}
-
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-4 .emotsy-icon::not(.emotsy-icon-last) .emotsy-content {
-			margin-right: 0
-		}
-
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-2 .emotsy-icon::not(.emotsy-icon-last) .emotsy-content {
-			margin-right: 0
-		}
-
-		.emotsy-row-18 .emotsy-col-1 .emotsy-block-6 .emotsy-icon::not(.emotsy-icon-last) .emotsy-content {
-			margin-right: 0
-		}
-
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-2 .emotsy-icon::not(.emotsy-icon-last) .emotsy-content {
-			margin-right: 0
-		}
-
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-4 .emotsy-icon::not(.emotsy-icon-last) .emotsy-content {
-			margin-right: 0
-		}
-
-		.emotsy-row-18 .emotsy-col-2 .emotsy-block-6 .emotsy-icon::not(.emotsy-icon-last) .emotsy-content {
-			margin-right: 0
-		}
-
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-2 .emotsy-icon::not(.emotsy-icon-last) .emotsy-content {
-			margin-right: 0
-		}
-
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-4 .emotsy-icon::not(.emotsy-icon-last) .emotsy-content {
-			margin-right: 0
-		}
-
-		.emotsy-row-18 .emotsy-col-3 .emotsy-block-6 .emotsy-icon::not(.emotsy-icon-last) .emotsy-content {
-			margin-right: 0
-		}
-
-		.emotsy-row-20 .emotsy-col-1 .emotsy-block-4 {
-			color: #ffffff;
-			font-size: 16px;
-			line-height: 200%;
-			text-align: center
-		}
-
-		.emotsy-row-22 .emotsy-col-1 .emotsy-block-2 {
-			color: #ffffff;
-			font-size: 14px;
-			line-height: 200%;
-			text-align: left
-		}
-
-		.emotsy-row-22 .emotsy-col-1 .emotsy-block-2 a,
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-2 a,
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-3 a,
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-4 a,
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-5 a,
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-6 a,
-		.emotsy-row-22 .emotsy-col-3 .emotsy-block-2 a,
-		.emotsy-row-22 .emotsy-col-3 .emotsy-block-3 a {
-			color: #ffffff
-		}
-
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-1 h1,
-		.emotsy-row-22 .emotsy-col-3 .emotsy-block-1 h1,
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-1 h1 {
-			color: #ffffff;
-			direction: ltr;
-			font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-			font-size: 18px;
-			font-weight: 400;
-			line-height: 200%;
-			text-align: left
-		}
-
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-2,
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-3,
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-4,
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-5,
-		.emotsy-row-22 .emotsy-col-2 .emotsy-block-6,
-		.emotsy-row-22 .emotsy-col-3 .emotsy-block-2,
-		.emotsy-row-22 .emotsy-col-3 .emotsy-block-3 {
-			color: #a9a9a9;
-			font-size: 14px;
-			line-height: 120%;
-			text-align: left
-		}
-
-		.emotsy-row-24 .emotsy-col-1 .emotsy-block-1 .emotsy-icon-image {
-			padding: 5px 6px 5px 5px
-		}
-
-		.emotsy-row-24 .emotsy-col-1 .emotsy-block-1 .emotsy-icon::not(.emotsy-icon-last) .emotsy-content {
-			margin-right: 0
-		}
-
-		.emotsy-row-24 .emotsy-col-1 .emotsy-block-1 .emotsy-icon-label a {
-			color: #1e0e4b
-		}
-
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 form {
+		.bee-row-21 .bee-col-3 .bee-block-3 form {
 			display: inline-block;
-			width: 100%
+			width: 80%
 		}
 
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 div.label,
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 label {
-			color: #ffffff;
-			line-height: 200%;
-			text-align: left;
+		.bee-row-21 .bee-col-3 .bee-block-3 div.label,
+		.bee-row-21 .bee-col-3 .bee-block-3 label {
+			color: #171719;
+			letter-spacing: 2px;
+			line-height: 120%;
+			text-align: center;
 			display: block
 		}
 
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 ::-webkit-input-placeholder {
-			color: #000000
+		.bee-row-21 .bee-col-3 .bee-block-3 ::-webkit-input-placeholder {
+			color: #171719
 		}
 
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 :-moz-placeholder {
-			color: #000000
+		.bee-row-21 .bee-col-3 .bee-block-3 :-moz-placeholder {
+			color: #171719
 		}
 
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 ::-moz-placeholder {
-			color: #000000
+		.bee-row-21 .bee-col-3 .bee-block-3 ::-moz-placeholder {
+			color: #171719
 		}
 
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 :-ms-input-placeholder {
-			color: #000000
+		.bee-row-21 .bee-col-3 .bee-block-3 :-ms-input-placeholder {
+			color: #171719
 		}
 
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 .emotsy-field>label:first-child,
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 div.label {
+		.bee-row-21 .bee-col-3 .bee-block-3 .bee-field>label:first-child,
+		.bee-row-21 .bee-col-3 .bee-block-3 div.label {
 			padding: 3px
 		}
 
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 input:not([type=checkbox]):not([type=radio]):not([type=image]) {
+		.bee-row-21 .bee-col-3 .bee-block-3 input:not([type=checkbox]):not([type=radio]):not([type=image]) {
 			background-color: #ffffff;
 			border-bottom: 1px solid transparent;
 			border-left: 1px solid transparent;
 			border-radius: 4px;
 			border-right: 1px solid transparent;
 			border-top: 1px solid transparent;
-			color: #000000;
+			color: #171719;
 			padding: 5px;
-			min-height: 38px
+			min-height: 24.4px
 		}
 
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 input:not([type=checkbox]):not([type=radio]):focus {
-			outline-color: #3AAEE0
+		.bee-row-21 .bee-col-3 .bee-block-3 input:not([type=checkbox]):not([type=radio]):focus {
+			outline-color: #981511
 		}
 
-		.emotsy-row-22 .emotsy-col-4 .emotsy-block-2 button {
-			background-color: #c92727;
+		.bee-row-21 .bee-col-3 .bee-block-3 button {
+			background-color: #981511;
 			border-bottom: 0 solid transparent;
 			border-left: 0 solid transparent;
 			border-radius: 4px;
@@ -1395,973 +1041,651 @@
 			width: 100%
 		}
 	</style>
-	</head>
-	<body>
-		<div class="emotsy-page-container">
-			<div class="emotsy-row emotsy-row-1">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
+</head>
+
+<body>
+	<div class="bee-page-container">
+		<div class="bee-row bee-row-1">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:25px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-image"><img alt="Your Logo" class="bee-center bee-fixedwidth" src="assets/2_logo.png" style="max-width:96px;" /></div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w5">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:30px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-menu">
+						<nav class="bee-menu"><input class="bee-hamburger-trigger" id="bee-hamburger-memu-r0c2m1" type="checkbox" /><label class="bee-hamburger-controls" for="bee-hamburger-memu-r0c2m1"><span class="bee-hamburger-open"></span><span class="bee-hamburger-close"></span></label>
+							<ul class="bee-horizontal with-bee-hamburger">
+								<li><a href="www.example.com" target="_self" title="">Shop</a></li>
+								<li><a href="www.example.com" target="_self" title="">Portfolio</a></li>
+								<li><a href="www.example.com" target="_self" title="">Blog</a></li>
+								<li><a href="www.example.com" target="_self" title="">Contacts</a></li>
+							</ul>
+						</nav>
 					</div>
 				</div>
 			</div>
-			<div class="emotsy-row emotsy-row-2">
-				<div class="emotsy-row-content no_stack">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w6">
-						<div class="emotsy-block emotsy-block-1 emotsy-icons">
-							<div class="emotsy-icon emotsy-icon-last">
-								<div class="emotsy-content">
-									<div class="emotsy-icon-image"><a href="www.example.com"
-											target="_self"><img alt="Company Logo" height="128px"
-												src="images/emotsy-logo.png" width="auto" /></a></div>
+		</div>
+		<div class="bee-row bee-row-2">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:20px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-3">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:20px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1>Suprise <strong>your Valentine</strong>!<br /> </h1>
+					</div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p style="word-break:break-word;"><span>Where flowers are our inspiration to create lasting memories. </span></p>
+						<p style="word-break:break-word;"><span>Whatever the occasion...</span></p>
+					</div>
+					<div class="bee-block bee-block-4 bee-heading">
+						<h1><strong>Get 30% off on all bouquets</strong> </h1>
+					</div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">SHOP NOW</span></a></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-image"><img alt="Flower-decoration" class="bee-center bee-autowidth" src="assets/3_HEADER.png" style="max-width:720px;" /></div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-4">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-5">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-6">
+			<div class="bee-row-content reverse">
+				<div class="bee-col bee-col-1 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-image"><img alt="Woman with a bouquet" class="bee-center bee-fixedwidth bee-fullwidthOnMobile" src="assets/4_about.png" style="max-width:470px;" /></div>
+					<div class="bee-block bee-block-3 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2><strong>About us</strong> </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h1><span style="color: #ae1731;">Flowers</span> Always<br />Make Everyone’s Day Brighter &amp; Fun </h1>
+					</div>
+					<div class="bee-block bee-block-4 bee-paragraph">
+						<p style="word-break:break-word;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
+					</div>
+					<div class="bee-block bee-block-5 bee-heading">
+						<h1>Floral artisan </h1>
+					</div>
+					<div class="bee-block bee-block-6 bee-paragraph">
+						<p style="word-break:break-word;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet.</p>
+					</div>
+					<div class="bee-block bee-block-7 bee-heading">
+						<h1>Event design </h1>
+					</div>
+					<div class="bee-block bee-block-8 bee-paragraph">
+						<p style="word-break:break-word;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet.</p>
+					</div>
+					<div class="bee-block bee-block-9 bee-divider">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-7">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:20px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2><strong>Valentine's day </strong><strong>offers</strong> </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h1>Let us arrange a smile </h1>
+					</div>
+					<div class="bee-block bee-block-4 bee-paragraph">
+						<p style="word-break:break-word;"><span>Where flowers are our inspiration to create lasting memories. Whatever the occasion...</span></p>
+						<p style="word-break:break-word;"><strong><span>Get 30% off on all bouquets.</span></strong></p>
+					</div>
+					<div class="bee-block bee-block-5 bee-button">
+						<div class="bee-button-content" style="font-size: 16px; display: inline-block;"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">Coupon Code:<strong style="font-size: 16px;"> LOVE</strong></span></div>
+					</div>
+					<div class="bee-block bee-block-6 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-8">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_self"><img alt="Flower Bouquet" class="bee-center bee-fixedwidth bee-fullwidthOnMobile" src="assets/5_flower-03.png" style="max-width:220px;" /></a></div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h1>Passion </h1>
+					</div>
+					<div class="bee-block bee-block-4 bee-text">
+						<div class="bee-text-content" style="font-size: 14px; line-height: 150%; font-family: inherit; color: #393d47;">
+							<p style="font-size: 14px; line-height: 21px; text-align: center;"><span style="font-size: 17px; line-height: 25px;"><span style="text-decoration: line-through; line-height: 18px;">40€</span> <span style="font-size: 18px; line-height: 27px;"><strong style="">25€</strong></span></span></p>
+						</div>
+					</div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">SHOP NOW</span></a></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_self"><img alt="Flower Bouquet" class="bee-center bee-fixedwidth bee-fullwidthOnMobile" src="assets/6_flower-02.png" style="max-width:220px;" /></a></div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h1>Calm </h1>
+					</div>
+					<div class="bee-block bee-block-4 bee-text">
+						<div class="bee-text-content" style="font-size: 14px; line-height: 150%; font-family: inherit; color: #393d47;">
+							<p style="font-size: 14px; line-height: 21px; text-align: center;"><span style="font-size: 17px; line-height: 25px;"><span style="text-decoration: line-through; line-height: 18px;">30€</span> <span style="font-size: 18px; line-height: 27px;"><strong style="">15€</strong></span></span></p>
+						</div>
+					</div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">SHOP NOW</span></a></div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_self"><img alt="Flower Bouquet" class="bee-center bee-fixedwidth bee-fullwidthOnMobile" src="assets/7_flower-01.png" style="max-width:220px;" /></a></div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h1>Patient </h1>
+					</div>
+					<div class="bee-block bee-block-4 bee-text">
+						<div class="bee-text-content" style="font-size: 14px; line-height: 150%; font-family: inherit; color: #393d47;">
+							<p style="font-size: 14px; line-height: 21px; text-align: center;"><span style="font-size: 17px; line-height: 25px;"><span style="text-decoration: line-through; line-height: 18px;">50€</span> <span style="font-size: 18px; line-height: 27px;"><strong style="">35€</strong></span></span></p>
+						</div>
+					</div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">SHOP NOW</span></a></div>
+				</div>
+				<div class="bee-col bee-col-5 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_self"><img alt="Flower Bouquet" class="bee-center bee-fixedwidth bee-fullwidthOnMobile" src="assets/8_flower-04-.png" style="max-width:220px;" /></a></div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h1>Faith </h1>
+					</div>
+					<div class="bee-block bee-block-4 bee-text">
+						<div class="bee-text-content" style="font-size: 14px; line-height: 150%; font-family: inherit; color: #393d47;">
+							<p style="font-size: 14px; line-height: 21px; text-align: center;"><span style="font-size: 17px; line-height: 25px;"><span style="text-decoration: line-through; line-height: 18px;">50€</span> <span style="font-size: 18px; line-height: 27px;"><strong style="">35€</strong></span></span></p>
+						</div>
+					</div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">SHOP NOW</span></a></div>
+				</div>
+				<div class="bee-col bee-col-6 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-9">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-10">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_self"><img alt="Flower Bouquet" class="bee-center bee-fixedwidth bee-fullwidthOnMobile" src="assets/9_flower-06.png" style="max-width:220px;" /></a></div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h1>Passion </h1>
+					</div>
+					<div class="bee-block bee-block-4 bee-text">
+						<div class="bee-text-content" style="font-size: 14px; line-height: 150%; font-family: inherit; color: #393d47;">
+							<p style="font-size: 14px; line-height: 21px; text-align: center;"><span style="font-size: 17px; line-height: 25px;"><span style="text-decoration: line-through; line-height: 18px;">40€</span> <span style="font-size: 18px; line-height: 27px;"><strong style="">25€</strong></span></span></p>
+						</div>
+					</div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">SHOP NOW</span></a></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_self"><img alt="Flower Bouquet" class="bee-center bee-fixedwidth bee-fullwidthOnMobile" src="assets/10_flower-05_1.png" style="max-width:220px;" /></a></div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h1>Calm </h1>
+					</div>
+					<div class="bee-block bee-block-4 bee-text">
+						<div class="bee-text-content" style="font-size: 14px; line-height: 150%; font-family: inherit; color: #393d47;">
+							<p style="font-size: 14px; line-height: 21px; text-align: center;"><span style="font-size: 17px; line-height: 25px;"><span style="text-decoration: line-through; line-height: 18px;">30€</span> <span style="font-size: 18px; line-height: 27px;"><strong style="">15€</strong></span></span></p>
+						</div>
+					</div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">SHOP NOW</span></a></div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_self"><img alt="Flower Bouquet" class="bee-center bee-fixedwidth bee-fullwidthOnMobile" src="assets/11_flower-07.png" style="max-width:220px;" /></a></div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h1>Patient </h1>
+					</div>
+					<div class="bee-block bee-block-4 bee-text">
+						<div class="bee-text-content" style="font-size: 14px; line-height: 150%; font-family: inherit; color: #393d47;">
+							<p style="font-size: 14px; line-height: 21px; text-align: center;"><span style="font-size: 17px; line-height: 25px;"><span style="text-decoration: line-through; line-height: 18px;">50€</span> <span style="font-size: 18px; line-height: 27px;"><strong style="">35€</strong></span></span></p>
+						</div>
+					</div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">SHOP NOW</span></a></div>
+				</div>
+				<div class="bee-col bee-col-5 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_self"><img alt="Flower Bouquet" class="bee-center bee-fixedwidth bee-fullwidthOnMobile" src="assets/12_flower-08.png" style="max-width:220px;" /></a></div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h1>Patient </h1>
+					</div>
+					<div class="bee-block bee-block-4 bee-text">
+						<div class="bee-text-content" style="font-size: 14px; line-height: 150%; font-family: inherit; color: #393d47;">
+							<p style="font-size: 14px; line-height: 21px; text-align: center;"><span style="font-size: 17px; line-height: 25px;"><span style="text-decoration: line-through; line-height: 18px;">50€</span> <span style="font-size: 18px; line-height: 27px;"><strong style="">35€</strong></span></span></p>
+						</div>
+					</div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">SHOP NOW</span></a></div>
+				</div>
+				<div class="bee-col bee-col-6 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-11">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:25px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-12">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-13">
+			<div class="bee-row-content reverse">
+				<div class="bee-col bee-col-1 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-image"><img alt="Trending Bouquet" class="bee-center bee-fixedwidth bee-fullwidthOnMobile" src="assets/13_bouquet-trend.png" style="max-width:470px;" /></div>
+					<div class="bee-block bee-block-3 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2><strong>Bestseller</strong> </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h1>Trending <span style="color: #ae1731;">bouquet</span> </h1>
+					</div>
+					<div class="bee-block bee-block-4 bee-paragraph">
+						<p style="word-break:break-word;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
+					</div>
+					<div class="bee-block bee-block-5 bee-heading">
+						<h1>Categorie </h1>
+					</div>
+					<div class="bee-block bee-block-6 bee-paragraph">
+						<p style="word-break:break-word;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+					</div>
+					<div class="bee-block bee-block-7 bee-heading">
+						<h1>Types of flowers </h1>
+					</div>
+					<div class="bee-block bee-block-8 bee-paragraph">
+						<p style="word-break:break-word;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+					</div>
+					<div class="bee-block bee-block-9 bee-heading">
+						<h1>How to take care </h1>
+					</div>
+					<div class="bee-block bee-block-10 bee-paragraph">
+						<p style="word-break:break-word;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
+					</div>
+					<div class="bee-block bee-block-11 bee-divider">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-14">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-15">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:30px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2><strong>Spring / Summer 2022</strong> </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h1>We have <span style="color: #ae1731;">unlimited</span> flower collections </h1>
+					</div>
+					<div class="bee-block bee-block-4 bee-paragraph">
+						<p style="word-break:break-word;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget.</p>
+						<p style="word-break:break-word;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+					</div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">SHOP NOW</span></a></div>
+					<div class="bee-block bee-block-6 bee-image"><img alt="Flowers" class="bee-center bee-autowidth" src="assets/14_ce8d4821-4bc9-4038-ab45-501188bb9877.png" style="max-width:720px;" /></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-16">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:40px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2><strong>News</strong><br /> </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h1>Blog update </h1>
+					</div>
+					<div class="bee-block bee-block-4 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-17">
+			<div class="bee-row-content reverse">
+				<div class="bee-col bee-col-1 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-image"><img alt="Blog Bouquet" class="bee-center bee-fixedwidth bee-fullwidthOnMobile" src="assets/15_BLOG.png" style="max-width:440px;" /></div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h2><strong>03 January</strong> </h2>
+					</div>
+					<div class="bee-block bee-block-4 bee-heading">
+						<h1>Wedding </h1>
+					</div>
+					<div class="bee-block bee-block-5 bee-paragraph">
+						<p style="word-break:break-word;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
+					</div>
+					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">READ MORE</span></a></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-image"><img alt="Blog Plants" class="bee-center bee-fullwidthOnMobile bee-autowidth" src="assets/16_BLOG-01.png" style="max-width:440px;" /></div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h2><strong>01 February</strong> </h2>
+					</div>
+					<div class="bee-block bee-block-4 bee-heading">
+						<h1>Health of plants </h1>
+					</div>
+					<div class="bee-block bee-block-5 bee-paragraph">
+						<p style="word-break:break-word;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
+					</div>
+					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">READ MORE</span></a></div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-18">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:40px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2><strong>Testimonials</strong><br /> </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h1>What our customers say </h1>
+					</div>
+					<div class="bee-block bee-block-4 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-19">
+			<div class="bee-row-content reverse">
+				<div class="bee-col bee-col-1 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1>“ </h1>
+					</div>
+					<div class="bee-block bee-block-3 bee-text">
+						<div class="bee-text-content" style="line-height: 150%; font-size: 12px; font-family: inherit; color: #171719;">
+							<p style="font-size: 14px; line-height: 21px; text-align: center; letter-spacing: normal;"><span style="font-size: 13px; line-height: 19px;"><span style="font-size: 12px; line-height: 18px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span></span><span style="font-size: 13px; line-height: 19px;"><span style="font-size: 12px; line-height: 18px;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</span></span></p>
+							<p style="font-size: 14px; line-height: 21px; text-align: center; letter-spacing: normal;"> </p>
+							<p style="font-size: 14px; line-height: 21px; text-align: center; letter-spacing: normal;"><em style=""><strong style=""><span style="font-size: 13px; line-height: 19px;"><span style="font-size: 12px; line-height: 18px;">Charlotte P.</span></span></strong></em></p>
+						</div>
+					</div>
+					<div class="bee-block bee-block-4 bee-image"><a href="www.example.com" target="_self"><img alt="Testimonial" class="bee-center bee-fixedwidth" src="assets/17_review.png" style="max-width:110px;" /></a></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1>“ </h1>
+					</div>
+					<div class="bee-block bee-block-3 bee-text">
+						<div class="bee-text-content" style="line-height: 150%; font-size: 12px; font-family: inherit; color: #171719;">
+							<p style="font-size: 14px; line-height: 21px; text-align: center; letter-spacing: normal;"><span style="font-size: 13px; line-height: 19px;"><span style="font-size: 12px; line-height: 18px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span></span><span style="font-size: 13px; line-height: 19px;"><span style="font-size: 12px; line-height: 18px;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</span></span></p>
+							<p style="font-size: 14px; line-height: 21px; text-align: center; letter-spacing: normal;"> </p>
+							<p style="font-size: 14px; line-height: 21px; text-align: center; letter-spacing: normal;"><em style=""><strong style=""><span style="font-size: 13px; line-height: 19px;"><span style="font-size: 12px; line-height: 18px;">James S.</span></span></strong></em></p>
+						</div>
+					</div>
+					<div class="bee-block bee-block-4 bee-image"><a href="www.example.com" target="_self"><img alt="Testimonial" class="bee-center bee-fixedwidth" src="assets/18_review-2.png" style="max-width:110px;" /></a></div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-20">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-21">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w5">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:35px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-image"><img alt="Your Logo" class="bee-center bee-fixedwidth" src="assets/2_logo.png" style="max-width:120px;" /></div>
+					<div class="bee-block bee-block-3 bee-divider">
+						<div class="spacer" style="height:0px;"></div>
+					</div>
+					<div class="bee-block bee-block-4 bee-social">
+						<div class="content"><span class="icon" style="padding:0 5px 0 5px;"><a href="https://www.facebook.com" target="_self"><img alt="Facebook" src="assets/19_facebook@2x.png" title="facebook" /></a></span><span class="icon" style="padding:0 5px 0 5px;"><a href="https://www.twitter.com" target="_self"><img alt="Twitter" src="assets/20_twitter@2x.png" title="twitter" /></a></span><span class="icon" style="padding:0 5px 0 5px;"><a href="https://www.linkedin.com" target="_self"><img alt="Linkedin" src="assets/21_linkedin@2x.png" title="linkedin" /></a></span><span class="icon" style="padding:0 5px 0 5px;"><a href="https://www.instagram.com" target="_self"><img alt="Instagram" src="assets/22_instagram@2x.png" title="instagram" /></a></span></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:35px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-menu">
+						<nav class="bee-menu">
+							<ul class="bee-vertical">
+								<li><a href="www.example.com" target="_self" title="">Shop</a></li>
+								<li><a href="www.example.com" target="_self" title="">New products</a></li>
+								<li><a href="www.example.com" target="_self" title="">Blog</a></li>
+								<li><a href="www.example.com" target="_self" title="">FAQ</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:10px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2>NEWSLETTER </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-form">
+						<form accept-charset="UTF-8" action="ACTION_PLACEHOLDER" autocomplete="on" enctype="multipart/form-data" method="post" target="_self">
+							<div class="bee-form-row">
+								<div class="bee-field bee-field-r20c2m2i3"><label for="r20c2m2i3">Email</label><input id="r20c2m2i3" name="email" required="" type="text" /></div>
+							</div>
+							<div class="bee-form-row">
+								<div class="bee-field bee-field-r20c2m2i11">
+									<div class="bee-button-container"><button id="r20c2m2i11" name="submit" type="submit" value="SIGN UP">SIGN UP</button></div>
 								</div>
 							</div>
-						</div>
+						</form>
 					</div>
-					<div class="emotsy-col emotsy-col-2 emotsy-col-w6">
-						<div class="emotsy-block emotsy-block-1 emotsy-menu">
-							<nav class="emotsy-menu"><input class="emotsy-hamburger-trigger"
-									id="emotsy-hamburger-memu-r1c1m0" type="checkbox" /><label
-									class="emotsy-hamburger-controls"
-									for="emotsy-hamburger-memu-r1c1m0"><span
-										class="emotsy-hamburger-open"></span><span
-										class="emotsy-hamburger-close"></span></label>
-								<ul class="emotsy-horizontal with-emotsy-hamburger">
-									<li><a href="www.example.com" target="_self" title>Gift
-											Baskets</a></li>
-									<li><a href="www.example.com" target="_self" title>Products</a></li>
-									<li><a href="www.example.com" target="_self" title>Offers</a></li>
-									<li><a href="www.example.com" target="_self" title>Recipes</a></li>
-								</ul>
-							</nav>
-						</div>
+					<div class="bee-block bee-block-4 bee-divider">
+						<div class="spacer" style="height:25px;"></div>
 					</div>
 				</div>
 			</div>
-			<div class="emotsy-row emotsy-row-3">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-4">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:50px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-divider">
-							<div class="spacer" style="height:35px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-heading">
-							<h1><strong> Merry</strong><strong> Christmas </strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Enjoy 40% off on all
-									products</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-button">
-							<div class="emotsy-button-content"
-								style="font-size: 22px; display: inline-block;"><span
-									style="word-break: break-word; font-size: 22px; line-height: 200%;"><span
-										style="font-size: 22px;">Coupon Code: 40XMAS</span></span></div>
-						</div>
-						<div class="emotsy-block emotsy-block-6 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>*The code is valid until
-									06.01.2026*</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-7 emotsy-image"><img
-								alt="Chocolate box" class="emotsy-center emotsy-fixedwidth"
-								src="images/chocolate.png" style="max-width:504px;" /></div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-5">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w6">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:65px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-image"><img
-								alt="Mixing chocolate" class="emotsy-center emotsy-fixedwidth"
-								src="images/choco.png" style="max-width:504px;" /></div>
-					</div>
-					<div class="emotsy-col emotsy-col-2 emotsy-col-w4">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:60px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>DISCOVER YOUR TASTE</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-heading">
-							<h1><strong>Magical Chocolate</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit amet,
-									consectetuer adipiscing elit consectetuer adipiscing elit.</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-text">
-							<div class="emotsy-text-content"
-								style="font-size: 14px; line-height: 150%; font-family: inherit; color: #333333;">
-								<p style="font-size: 14px; line-height: 21px; text-align: left;"><span
-										style="font-size: 16px; line-height: 24px;"><span
-											style="text-decoration: line-through; line-height: 18px;">40.99€</span>
-										<strong style><span
-												style="font-size: 20px; line-height: 30px;">23.99</span></strong></span></p>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-6 emotsy-button"><a
-								class="emotsy-button-content" href="www.example.com"
-								style="font-size: 16px; display: inline-block;" target="_self"><span
-									style="word-break: break-word; font-size: 16px; line-height: 200%;">Explore
-									Now!</span></a></div>
-						<div class="emotsy-block emotsy-block-7 emotsy-divider">
-							<div class="spacer" style="height:60px;"></div>
-						</div>
-					</div>
-					<div class="emotsy-col emotsy-col-3 emotsy-col-w2">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-6">
-				<div class="emotsy-row-content reverse">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w5">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:45px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>DISCOVER YOUR TASTE</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-heading">
-							<h1><strong>Chocolate Cookies</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit amet,
-									consectetuer adipiscing elit consectetuer adipiscing elit.</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-text">
-							<div class="emotsy-text-content"
-								style="font-size: 14px; line-height: 150%; font-family: inherit; color: #333333;">
-								<p style="font-size: 14px; line-height: 21px; text-align: left;"><span
-										style="font-size: 16px; line-height: 24px;"><span
-											style="text-decoration: line-through; line-height: 18px;">40.99€</span>
-										<strong style><span
-												style="font-size: 20px; line-height: 30px;">23.99</span></strong></span></p>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-6 emotsy-button"><a
-								class="emotsy-button-content" href="www.example.com"
-								style="font-size: 16px; display: inline-block;" target="_self"><span
-									style="word-break: break-word; font-size: 16px; line-height: 200%;">Explore
-									Now!</span></a></div>
-					</div>
-					<div class="emotsy-col emotsy-col-2 emotsy-col-w2">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:60px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-					</div>
-					<div class="emotsy-col emotsy-col-3 emotsy-col-w5">
-						<div class="emotsy-block emotsy-block-1 emotsy-image"><img
-								alt="White chocolate" class="emotsy-center emotsy-fixedwidth"
-								src="images/brown_chocolate.png" style="max-width:480px;" /></div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-7">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:45px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-8">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:70px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>DISCOVER YOUR TASTE</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-heading">
-							<h1><strong>Gift Basket</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit amet,
-									consectetuer adipiscing elit consectetuer adipiscing elit.</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-text">
-							<div class="emotsy-text-content"
-								style="font-size: 14px; line-height: 150%; font-family: inherit; color: #fbfbfb;">
-								<p style="font-size: 14px; line-height: 21px; text-align: center;"><span
-										style="font-size: 16px; line-height: 24px;"><span
-											style="text-decoration: line-through; line-height: 18px;">40.99€</span>
-										<strong style><span
-												style="font-size: 20px; line-height: 30px;">23.99</span></strong></span></p>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-6 emotsy-button"><a
-								class="emotsy-button-content" href="www.example.com"
-								style="font-size: 16px; display: inline-block;" target="_self"><span
-									style="word-break: break-word; font-size: 16px; line-height: 200%;">Explore
-									Now!</span></a></div>
-						<div class="emotsy-block emotsy-block-7 emotsy-image"><img
-								alt="Chocolate Christmas Basket"
-								class="emotsy-center emotsy-fixedwidth emotsy-fullwidthOnMobile"
-								src="images/Christmas_chocolate.png" style="max-width:504px;" /></div>
-						<div class="emotsy-block emotsy-block-8 emotsy-divider">
-							<div class="spacer" style="height:55px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-9">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w5">
-						<div class="emotsy-block emotsy-block-1 emotsy-paragraph">
-							<p style="word-break:break-word;"><strong><span>Our
-										Recipes</span></strong></p>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-heading">
-							<h1>Explore Sweet & Delicious Recipes </h1>
-						</div>
-					</div>
-					<div class="emotsy-col emotsy-col-2 emotsy-col-w7">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-10">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-11">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w6">
-						<div class="emotsy-block emotsy-block-1 emotsy-image"><img
-								alt="Chocolate in Box"
-								class="emotsy-center emotsy-fixedwidth emotsy-fullwidthOnMobile"
-								src="images/chocolate_reciepes1.png" style="max-width:692px;" /></div>
-						<div class="emotsy-block emotsy-block-2 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>DISCOVER YOUR TASTE</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-heading">
-							<h1><strong>Create Your Own</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit
-									amet,consectetuer adipiscing elit consectetuer adipiscing elit.
-									adipiscing elit consectetuer adipiscing elit. adipiscing elit
-									consectetuer adipiscing elit.</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-6 emotsy-button">
-							<div class="emotsy-button-content"
-								style="font-size: 16px; display: inline-block;"><span
-									style="word-break: break-word; font-size: 16px; line-height: 200%;">Explore
-									Now!</span></div>
-						</div>
-						<div class="emotsy-block emotsy-block-7 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-					</div>
-					<div class="emotsy-col emotsy-col-2 emotsy-col-w3">
-						<div class="emotsy-block emotsy-block-1 emotsy-image"><img
-								alt="Xmas Snakcs"
-								class="emotsy-center emotsy-fixedwidth emotsy-fullwidthOnMobile"
-								src="images/chocolate_reciepes3.png" style="max-width:334px;" /></div>
-						<div class="emotsy-block emotsy-block-2 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>DISCOVER YOUR TASTE</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-heading">
-							<h1><strong>Xmas Snack</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit
-									amet,consectetuer adipiscing elit </span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-button"><a
-								class="emotsy-button-content" href="www.example.com"
-								style="font-size: 16px; display: inline-block;" target="_self"><span
-									style="word-break: break-word; font-size: 16px; line-height: 200%;">Explore
-									Now!</span></a></div>
-						<div class="emotsy-block emotsy-block-6 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-7 emotsy-divider">
-							<div class="center emotsy-separator"
-								style="border-top:24px solid #171B1B;width:100%;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-8 emotsy-image"><img alt="Cupcake"
-								class="emotsy-center emotsy-fixedwidth emotsy-fullwidthOnMobile"
-								src="images/chocolate_reciepes4.png" style="max-width:334px;" /></div>
-						<div class="emotsy-block emotsy-block-9 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>DISCOVER YOUR TASTE</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-10 emotsy-heading">
-							<h1><strong>Rainbow Cupcake</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-11 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit
-									amet,consectetuer adipiscing elit </span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-12 emotsy-button"><a
-								class="emotsy-button-content" href="www.example.com"
-								style="font-size: 16px; display: inline-block;" target="_self"><span
-									style="word-break: break-word; font-size: 16px; line-height: 200%;">Explore
-									Now!</span></a></div>
-						<div class="emotsy-block emotsy-block-13 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-					</div>
-					<div class="emotsy-col emotsy-col-3 emotsy-col-w3">
-						<div class="emotsy-block emotsy-block-1 emotsy-image"><img
-								alt="Ice cream chocolate"
-								class="emotsy-center emotsy-fixedwidth emotsy-fullwidthOnMobile"
-								src="images/chocolate_reciepes2.png" style="max-width:334px;" /></div>
-						<div class="emotsy-block emotsy-block-2 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>DISCOVER YOUR TASTE</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-heading">
-							<h1><strong>Chocolate Stick</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit
-									amet,consectetuer adipiscing elit </span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-button"><a
-								class="emotsy-button-content" href="www.example.com"
-								style="font-size: 16px; display: inline-block;" target="_self"><span
-									style="word-break: break-word; font-size: 16px; line-height: 200%;">Explore
-									Now!</span></a></div>
-						<div class="emotsy-block emotsy-block-6 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-7 emotsy-divider">
-							<div class="center emotsy-separator"
-								style="border-top:24px solid #171B1B;width:100%;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-8 emotsy-image"><img alt="Cupcake "
-								class="emotsy-center emotsy-fixedwidth emotsy-fullwidthOnMobile"
-								src="images/chocolate_reciepes5.png" style="max-width:334px;" /></div>
-						<div class="emotsy-block emotsy-block-9 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>DISCOVER YOUR TASTE</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-10 emotsy-heading">
-							<h1><strong>Tasty</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-11 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit
-									amet,consectetuer adipiscing elit </span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-12 emotsy-button"><a
-								class="emotsy-button-content" href="www.example.com"
-								style="font-size: 16px; display: inline-block;" target="_self"><span
-									style="word-break: break-word; font-size: 16px; line-height: 200%;">Explore
-									Now!</span></a></div>
-						<div class="emotsy-block emotsy-block-13 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-12">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:20px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-13">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w3">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-					</div>
-					<div class="emotsy-col emotsy-col-2 emotsy-col-w3">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:30px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-icons">
-							<div class="emotsy-icon emotsy-icon-last">
-								<div class="emotsy-content">
-									<div class="emotsy-icon-image"><img alt="Cafe" height="64px"
-											src="images/coffee_cake.png" width="auto" /></div>
-								</div>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-heading">
-							<h1><strong>Cafe</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit
-									amet,consectetuer adipiscing elit consectetuer adipiscing
-									elit.</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-divider">
-							<div class="spacer" style="height:30px;"></div>
-						</div>
-					</div>
-					<div class="emotsy-col emotsy-col-3 emotsy-col-w3">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:30px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-icons">
-							<div class="emotsy-icon emotsy-icon-last">
-								<div class="emotsy-content">
-									<div class="emotsy-icon-image"><img alt="Cake" height="64px"
-											src="images/cake.png" width="auto" /></div>
-								</div>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-heading">
-							<h1><strong>Fresh</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit
-									amet,consectetuer adipiscing elit consectetuer adipiscing
-									elit.</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-divider">
-							<div class="spacer" style="height:30px;"></div>
-						</div>
-					</div>
-					<div class="emotsy-col emotsy-col-4 emotsy-col-w3">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:30px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-icons">
-							<div class="emotsy-icon emotsy-icon-last">
-								<div class="emotsy-content">
-									<div class="emotsy-icon-image"><img alt="Bread" height="64px"
-											src="images/bread.png" width="auto" /></div>
-								</div>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-heading">
-							<h1><strong>Tasty</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit
-									amet,consectetuer adipiscing elit consectetuer adipiscing
-									elit.</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-divider">
-							<div class="spacer" style="height:30px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-14">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:45px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>DISCOVER YOUR TASTE</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-heading">
-							<h1><strong>Create Your Own</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit amet,
-									consectetuer adipiscing elit consectetuer adipiscing elit.</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-divider">
-							<div class="spacer" style="height:10px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-15">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w3">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:10px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-image"><img
-								alt="Chocolate in Black Box"
-								class="emotsy-center emotsy-fixedwidth emotsy-fullwidthOnMobile"
-								src="images/chocolate_balls_2.png" style="max-width:275px;" /></div>
-						<div class="emotsy-block emotsy-block-3 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-text">
-							<div class="emotsy-text-content"
-								style="font-size: 14px; line-height: 150%; font-family: inherit; color: #333333;">
-								<p style="font-size: 14px; line-height: 21px; text-align: center;"><span
-										style="font-size: 16px; line-height: 24px;"><span
-											style="text-decoration: line-through; line-height: 18px;">40.99€</span>
-										<strong style><span
-												style="font-size: 20px; line-height: 30px;">23.99</span></strong></span></p>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-button"><a
-								class="emotsy-button-content" href="www.example.com"
-								style="font-size: 16px; display: inline-block;" target="_self"><span
-									style="word-break: break-word; font-size: 16px; line-height: 200%;">Explore
-									Now!</span></a></div>
-						<div class="emotsy-block emotsy-block-6 emotsy-divider">
-							<div class="spacer" style="height:10px;"></div>
-						</div>
-					</div>
-					<div class="emotsy-col emotsy-col-2 emotsy-col-w3">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:15px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-image"><img
-								alt="Chocolate in White Box"
-								class="emotsy-center emotsy-fixedwidth emotsy-fullwidthOnMobile"
-								src="images/chocolate_box_white.png" style="max-width:295px;" /></div>
-						<div class="emotsy-block emotsy-block-3 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Dark Chocolate Box</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-text">
-							<div class="emotsy-text-content"
-								style="font-size: 14px; line-height: 150%; font-family: inherit; color: #e8e8e8;">
-								<p style="font-size: 14px; line-height: 21px; text-align: center;"><span
-										style="font-size: 16px; line-height: 24px;"><span
-											style="text-decoration: line-through; line-height: 18px;">40.99€</span>
-										<strong style><span
-												style="font-size: 20px; line-height: 30px;">23.99</span></strong></span></p>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-button"><a
-								class="emotsy-button-content" href="www.example.com"
-								style="font-size: 16px; display: inline-block;" target="_self"><span
-									style="word-break: break-word; font-size: 16px; line-height: 200%;">Explore
-									Now!</span></a></div>
-						<div class="emotsy-block emotsy-block-6 emotsy-divider">
-							<div class="spacer" style="height:10px;"></div>
-						</div>
-					</div>
-					<div class="emotsy-col emotsy-col-3 emotsy-col-w3">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:5px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-image"><img
-								alt="Chocolate in Black Box"
-								class="emotsy-center emotsy-fixedwidth emotsy-fullwidthOnMobile"
-								src="images/chocolate_ball.png" style="max-width:292px;" /></div>
-						<div class="emotsy-block emotsy-block-3 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-text">
-							<div class="emotsy-text-content"
-								style="font-size: 14px; line-height: 150%; font-family: inherit; color: #333333;">
-								<p style="font-size: 14px; line-height: 21px; text-align: center;"><span
-										style="font-size: 16px; line-height: 24px;"><span
-											style="text-decoration: line-through; line-height: 18px;">40.99€</span>
-										<strong style><span
-												style="font-size: 20px; line-height: 30px;">23.99</span></strong></span></p>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-button"><a
-								class="emotsy-button-content" href="www.example.com"
-								style="font-size: 16px; display: inline-block;" target="_self"><span
-									style="word-break: break-word; font-size: 16px; line-height: 200%;">Explore
-									Now!</span></a></div>
-						<div class="emotsy-block emotsy-block-6 emotsy-divider">
-							<div class="spacer" style="height:10px;"></div>
-						</div>
-					</div>
-					<div class="emotsy-col emotsy-col-4 emotsy-col-w3">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:15px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-image"><img
-								alt="Chocolate in White Box"
-								class="emotsy-center emotsy-fixedwidth emotsy-fullwidthOnMobile"
-								src="images/chocolate_white_box.png" style="max-width:292px;" /></div>
-						<div class="emotsy-block emotsy-block-3 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Dark Chocolate Box</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-text">
-							<div class="emotsy-text-content"
-								style="font-size: 14px; line-height: 150%; font-family: inherit; color: #e8e8e8;">
-								<p style="font-size: 14px; line-height: 21px; text-align: center;"><span
-										style="font-size: 16px; line-height: 24px;"><span
-											style="text-decoration: line-through; line-height: 18px;">40.99€</span>
-										<strong style><span
-												style="font-size: 20px; line-height: 30px;">23.99</span></strong></span></p>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-button"><a
-								class="emotsy-button-content" href="www.example.com"
-								style="font-size: 16px; display: inline-block;" target="_self"><span
-									style="word-break: break-word; font-size: 16px; line-height: 200%;">Explore
-									Now! </span></a></div>
-						<div class="emotsy-block emotsy-block-6 emotsy-divider">
-							<div class="spacer" style="height:10px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-16">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:60px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-17">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:35px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Testimonial </span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-heading">
-							<h1><strong>What Our Customers Saying</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit amet,
-									consectetuer adipiscing elit consectetuer adipiscing elit.</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-divider">
-							<div class="spacer" style="height:10px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-18">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w4">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-icons">
-							<div class="emotsy-icon emotsy-icon-last">
-								<div class="emotsy-content">
-									<div class="emotsy-icon-image"><img alt="Testimonial " height="64px"
-											src="images/testimonials.png" width="auto" /></div>
-								</div>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit amet,
-									consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-									massa. Cum sociis natoque penatibus et magnis dis parturient montes,
-									nascetur ridiculus mus. Donec quam felis</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-icons">
-							<div class="emotsy-icon emotsy-icon-last">
-								<div class="emotsy-content">
-									<div class="emotsy-icon-image"><img alt="Reviewer Portrait"
-											height="128px" src="images/testi_1.png" width="auto" /></div>
-								</div>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-paragraph">
-							<p
-								style="word-break:break-word;"><strong><span>Jessica.S</span></strong></p>
-						</div>
-						<div class="emotsy-block emotsy-block-6 emotsy-icons">
-							<div class="emotsy-icon emotsy-icon-last">
-								<div class="emotsy-content">
-									<div class="emotsy-icon-image"><img alt="Rating" height="32px"
-											src="images/stars_rating.png" width="auto" /></div>
-								</div>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-7 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-					</div>
-					<div class="emotsy-col emotsy-col-2 emotsy-col-w4">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:10px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-icons">
-							<div class="emotsy-icon emotsy-icon-last">
-								<div class="emotsy-content">
-									<div class="emotsy-icon-image"><img alt="Testimonial " height="64px"
-											src="images/testimonials.png" width="auto" /></div>
-								</div>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit amet,
-									consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-									massa. Cum sociis natoque penatibus et magnis dis parturient montes,
-									nascetur ridiculus mus. Donec quam felis</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-icons">
-							<div class="emotsy-icon emotsy-icon-last">
-								<div class="emotsy-content">
-									<div class="emotsy-icon-image"><img alt="Reviewer Portrait"
-											height="128px" src="images/Mari.png" width="auto" /></div>
-								</div>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-paragraph">
-							<p
-								style="word-break:break-word;"><strong><span>Marry.J</span></strong></p>
-						</div>
-						<div class="emotsy-block emotsy-block-6 emotsy-icons">
-							<div class="emotsy-icon emotsy-icon-last">
-								<div class="emotsy-content">
-									<div class="emotsy-icon-image"><img alt="Rating" height="32px"
-											src="images/stars_rating_fade.png" width="auto" /></div>
-								</div>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-7 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-					</div>
-					<div class="emotsy-col emotsy-col-3 emotsy-col-w4">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:0px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-icons">
-							<div class="emotsy-icon emotsy-icon-last">
-								<div class="emotsy-content">
-									<div class="emotsy-icon-image"><img alt="Testimonial " height="64px"
-											src="images/testimonials.png" width="auto" /></div>
-								</div>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>Lorem ipsum dolor sit amet,
-									consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-									massa. Cum sociis natoque penatibus et magnis dis parturient montes,
-									nascetur ridiculus mus. Donec quam felis</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-icons">
-							<div class="emotsy-icon emotsy-icon-last">
-								<div class="emotsy-content">
-									<div class="emotsy-icon-image"><img alt="Reviewer Portrait"
-											height="128px" src="images/navid_F.png" width="auto" /></div>
-								</div>
-							</div>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-paragraph">
-							<p
-								style="word-break:break-word;"><strong><span>Navid.N</span></strong></p>
-						</div>
-						<div class="emotsy-block emotsy-block-6 emotsy-icons">
-							<div class="emotsy-icon emotsy-icon-last">
-								<div class="emotsy-content">
-									<div class="emotsy-icon-image"><img alt="Rating" height="32px"
-											src="images/stars_rating.png" width="auto" /></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-19">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:70px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-20">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:70px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-paragraph">
-							<p style="word-break:break-word;"><span>DISCOVER YOUR TASTE</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-heading">
-							<h1><strong>Delivery Times</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
-							<p style="word-break:break-word;"><span><strong>Wednesday, Dec, 14th
-									</strong>- Last Day For International Express Shipping </span></p>
-							<p style="word-break:break-word;"><span><strong>Thursday, Dec
-										15th</strong> - Last Day for Standard Shipping</span></p>
-							<p style="word-break:break-word;"><span><strong>Thursday, Dec,
-										22nd</strong> - Last day for UPS Next Day Shipping</span></p>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-button"><a
-								class="emotsy-button-content" href="www.example.com"
-								style="font-size: 16px; display: inline-block;" target="_self"><span
-									style="word-break: break-word; font-size: 16px; line-height: 200%;">Shop
-									Now!</span></a></div>
-						<div class="emotsy-block emotsy-block-6 emotsy-divider">
-							<div class="spacer" style="height:15px;"></div>
-						</div>
-						<div class="emotsy-block emotsy-block-7 emotsy-image"><img alt="Santa"
-								class="emotsy-center emotsy-fixedwidth emotsy-fullwidthOnMobile"
-								src="images/Santa_going_down_Chimney.png"
-								style="max-width:1008px;" /></div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-21">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:55px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-22">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w3">
-						<div class="emotsy-block emotsy-block-1 emotsy-image"><a
-								href="www.example.com" target="_self"><img alt="company logo"
-									class="emotsy-fixedwidth" src="images/emotsy-logo.png"
-									style="max-width:128px;" /></a></div>
-						<div class="emotsy-block emotsy-block-2 emotsy-paragraph">
-							<p style="word-break:break-word;">Lorem ipsum dolor sit amet,
-								consectetuer adipiscing elit, </p>
-						</div>
-					</div>
-					<div class="emotsy-col emotsy-col-2 emotsy-col-w3">
-						<div class="emotsy-block emotsy-block-1 emotsy-heading">
-							<h1><strong>Links</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-paragraph">
-							<p style="word-break:break-word;"><a href="http://www.example.com"
-									rel="noopener" style="text-decoration: none;" target="_blank">Chocolate
-									Basket</a></p>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-paragraph">
-							<p style="word-break:break-word;"><a href="http://www.example.com"
-									rel="noopener" style="text-decoration: none;"
-									target="_blank">Products</a></p>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
-							<p style="word-break:break-word;"><a href="http://www.example.com"
-									rel="noopener" style="text-decoration: none;"
-									target="_blank">Offers</a></p>
-						</div>
-						<div class="emotsy-block emotsy-block-5 emotsy-paragraph">
-							<p style="word-break:break-word;"><a href="http://www.example.com"
-									rel="noopener" style="text-decoration: none;" target="_blank">Delivery
-									& Payment</a></p>
-						</div>
-						<div class="emotsy-block emotsy-block-6 emotsy-paragraph">
-							<p style="word-break:break-word;"><a href="http://www.example.com"
-									rel="noopener" style="text-decoration: none;"
-									target="_blank">FAQ</a></p>
-						</div>
-					</div>
-					<div class="emotsy-col emotsy-col-3 emotsy-col-w3">
-						<div class="emotsy-block emotsy-block-1 emotsy-heading">
-							<h1><strong>Contact</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-paragraph">
-							<p style="word-break:break-word;"><a href="http://www.example.com"
-									rel="noopener" style="text-decoration: none;"
-									target="_blank">Info@company.com</a></p>
-						</div>
-						<div class="emotsy-block emotsy-block-3 emotsy-paragraph">
-							<p style="word-break:break-word;"><a href="http://www.example.com"
-									rel="noopener" style="text-decoration: none;" target="_blank">Help
-									Center</a></p>
-						</div>
-						<div class="emotsy-block emotsy-block-4 emotsy-social">
-							<div class="content"><span class="icon"
-									style="padding:0 2.5px 0 2.5px;"><a href="https://www.facebook.com"
-										target="_self"><img alt="Facebook" src="images/facebook2x.png"
-											title="facebook" /></a></span><span class="icon"
-									style="padding:0 2.5px 0 2.5px;"><a href="https://www.twitter.com"
-										target="_self"><img alt="Twitter" src="images/twitter2x.png"
-											title="twitter" /></a></span><span class="icon"
-									style="padding:0 2.5px 0 2.5px;"><a href="https://www.linkedin.com"
-										target="_self"><img alt="Linkedin" src="images/linkedin2x.png"
-											title="linkedin" /></a></span><span class="icon"
-									style="padding:0 2.5px 0 2.5px;"><a href="https://www.instagram.com"
-										target="_self"><img alt="Instagram" src="images/instagram2x.png"
-											title="instagram" /></a></span></div>
-						</div>
-					</div>
-					<div class="emotsy-col emotsy-col-4 emotsy-col-w3">
-						<div class="emotsy-block emotsy-block-1 emotsy-heading">
-							<h1><strong>Newsletter</strong> </h1>
-						</div>
-						<div class="emotsy-block emotsy-block-2 emotsy-form">
-							<form accept-charset="UTF-8" action="ACTION_PLACEHOLDER"
-								autocomplete="on" enctype="multipart/form-data" method="post"
-								target="_self">
-								<div class="emotsy-form-row">
-									<div class="emotsy-field emotsy-field-r21c3m1i3"><label
-											for="r21c3m1i3">Email</label><input id="r21c3m1i3" name="email"
-											required type="text" /></div>
-								</div>
-								<div class="emotsy-form-row">
-									<div class="emotsy-field emotsy-field-r21c3m1i11">
-										<div class="emotsy-button-container"><button id="r21c3m1i11"
-												name="submit" type="submit" value="SIGN UP">SIGN UP</button></div>
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-23">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
-						<div class="emotsy-block emotsy-block-1 emotsy-divider">
-							<div class="spacer" style="height:55px;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="emotsy-row emotsy-row-24">
-				<div class="emotsy-row-content">
-					<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
-						<div class="emotsy-block emotsy-block-1 emotsy-icons">
-							<div class="emotsy-icon emotsy-icon-last">
-								<div class="emotsy-content">
-									<div class="emotsy-icon-image"><a
-											href="http://emotsy.com/" target="_blank"
-											title="Designed with emotsy"><img alt="emotsy Logo"
-												height="64px" src="images/emotsy-logo.png"
-												width="auto" /></a></div>
-									<div class="emotsy-icon-label emotsy-icon-label-right"><a
-											href="http://emotsy.com/" target="_blank"
-											title="Designed with emotsy">Designed with emotsy</a></div>
-								</div>
+		</div>
+		<div class="bee-row bee-row-22">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><a href="http://designedwithbeefree.com/" target="_blank" title="Designed with Beefree"><img alt="Beefree Logo" height="32px" src="assets/23_Beefree-logo.png" width="auto" /></a></div>
+								<div class="bee-icon-label bee-icon-label-right"><a href="http://designedwithbeefree.com/" target="_blank" title="Designed with Beefree">Designed with Beefree</a></div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</body>
+	</div>
+</body>
+
 </html>
