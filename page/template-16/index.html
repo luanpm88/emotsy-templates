@@ -14,35 +14,35 @@
 	<meta content="width=device-width" name="viewport" />
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css" />
 	<style>
-		.bee-row,
-		.bee-row-content {
+		.emotsy-row,
+		.emotsy-row-content {
 			position: relative
 		}
 
-		.bee-button-content,
-		.bee-row-6 .bee-col-2 .bee-block-4 {
+		.emotsy-button-content,
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 {
 			text-align: center
 		}
 
-		.bee-row-2,
-		.bee-row-3,
-		.bee-row-4 {
+		.emotsy-row-2,
+		.emotsy-row-3,
+		.emotsy-row-4 {
 			background-color: #8cc8f4;
 			background-repeat: no-repeat
 		}
 
-		.bee-menu .bee-hamburger-controls span,
-		.bee-row-1,
-		.bee-row-2,
-		.bee-row-3,
-		.bee-row-4,
-		.bee-row-5,
-		.bee-row-6,
-		.bee-row-7 {
+		.emotsy-menu .emotsy-hamburger-controls span,
+		.emotsy-row-1,
+		.emotsy-row-2,
+		.emotsy-row-3,
+		.emotsy-row-4,
+		.emotsy-row-5,
+		.emotsy-row-6,
+		.emotsy-row-7 {
 			background-repeat: no-repeat
 		}
 
-		.bee-row-15 .bee-row-content,
+		.emotsy-row-15 .emotsy-row-content,
 		body {
 			color: #000000
 		}
@@ -52,25 +52,25 @@
 			font-family: Nunito, Arial, Helvetica Neue, Helvetica, sans-serif
 		}
 
-		.bee-row-10 .bee-col-1 .bee-block-1 a,
-		.bee-row-10 .bee-col-1 .bee-block-3 a,
-		.bee-row-10 .bee-col-1 .bee-block-4 a,
-		.bee-row-10 .bee-col-2 .bee-block-1 a,
-		.bee-row-10 .bee-col-2 .bee-block-3 a,
-		.bee-row-10 .bee-col-2 .bee-block-4 a,
-		.bee-row-10 .bee-col-3 .bee-block-1 a,
-		.bee-row-10 .bee-col-3 .bee-block-3 a,
-		.bee-row-10 .bee-col-3 .bee-block-4 a,
-		.bee-row-10 .bee-col-4 .bee-block-1 a,
-		.bee-row-10 .bee-col-4 .bee-block-3 a,
-		.bee-row-10 .bee-col-4 .bee-block-4 a,
-		.bee-row-13 .bee-col-2 .bee-block-1 a,
-		.bee-row-13 .bee-col-3 .bee-block-1 a,
-		.bee-row-2 .bee-col-1 .bee-block-2 a,
-		.bee-row-2 .bee-col-1 .bee-block-3 a,
-		.bee-row-6 .bee-col-2 .bee-block-1 a,
-		.bee-row-6 .bee-col-2 .bee-block-2 a,
-		.bee-row-9 .bee-col-1 .bee-block-1 a,
+		.emotsy-row-10 .emotsy-col-1 .emotsy-block-1 a,
+		.emotsy-row-10 .emotsy-col-1 .emotsy-block-3 a,
+		.emotsy-row-10 .emotsy-col-1 .emotsy-block-4 a,
+		.emotsy-row-10 .emotsy-col-2 .emotsy-block-1 a,
+		.emotsy-row-10 .emotsy-col-2 .emotsy-block-3 a,
+		.emotsy-row-10 .emotsy-col-2 .emotsy-block-4 a,
+		.emotsy-row-10 .emotsy-col-3 .emotsy-block-1 a,
+		.emotsy-row-10 .emotsy-col-3 .emotsy-block-3 a,
+		.emotsy-row-10 .emotsy-col-3 .emotsy-block-4 a,
+		.emotsy-row-10 .emotsy-col-4 .emotsy-block-1 a,
+		.emotsy-row-10 .emotsy-col-4 .emotsy-block-3 a,
+		.emotsy-row-10 .emotsy-col-4 .emotsy-block-4 a,
+		.emotsy-row-13 .emotsy-col-2 .emotsy-block-1 a,
+		.emotsy-row-13 .emotsy-col-3 .emotsy-block-1 a,
+		.emotsy-row-2 .emotsy-col-1 .emotsy-block-2 a,
+		.emotsy-row-2 .emotsy-col-1 .emotsy-block-3 a,
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-1 a,
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-2 a,
+		.emotsy-row-9 .emotsy-col-1 .emotsy-block-1 a,
 		a {
 			color: #0068A5
 		}
@@ -84,55 +84,55 @@
 			margin: 0
 		}
 
-		.bee-menu .bee-hamburger-trigger {
+		.emotsy-menu .emotsy-hamburger-trigger {
 			display: none
 		}
 
-		.bee-row-content {
+		.emotsy-row-content {
 			max-width: 1440px;
 			margin: 0 auto;
 			display: flex
 		}
 
-		.bee-row-content .bee-col-w3 {
+		.emotsy-row-content .emotsy-col-w3 {
 			flex-basis: 25%
 		}
 
-		.bee-row-content .bee-col-w6 {
+		.emotsy-row-content .emotsy-col-w6 {
 			flex-basis: 50%
 		}
 
-		.bee-row-content .bee-col-w9 {
+		.emotsy-row-content .emotsy-col-w9 {
 			flex-basis: 75%
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-4 div.label:not(.inline),
-		.bee-row-6 .bee-col-2 .bee-block-4 label:not(.inline),
-		.bee-row-content .bee-col-w12 {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 div.label:not(.inline),
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 label:not(.inline),
+		.emotsy-row-content .emotsy-col-w12 {
 			flex-basis: 100%
 		}
 
-		.bee-button a,
-		.bee-icon .bee-icon-label-right a,
-		.bee-menu ul li a {
+		.emotsy-button a,
+		.emotsy-icon .emotsy-icon-label-right a,
+		.emotsy-menu ul li a {
 			text-decoration: none
 		}
 
-		.bee-divider,
-		.bee-image {
+		.emotsy-divider,
+		.emotsy-image {
 			overflow: auto
 		}
 
-		.bee-divider .center,
-		.bee-image .bee-center {
+		.emotsy-divider .center,
+		.emotsy-image .emotsy-center {
 			margin: 0 auto
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-4 .bee-form-row:not(.bee-sidelabel) input:not([type=checkbox]):not([type=radio]) {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 .emotsy-form-row:not(.emotsy-sidelabel) input:not([type=checkbox]):not([type=radio]) {
 			width: 100%
 		}
 
-		.bee-form .bee-form-row .bee-field {
+		.emotsy-form .emotsy-form-row .emotsy-field {
 			padding: 3px;
 			display: flex;
 			flex: 1;
@@ -140,82 +140,82 @@
 			align-items: center
 		}
 
-		.bee-form .bee-form-row .bee-field.bee-inline-field {
+		.emotsy-form .emotsy-form-row .emotsy-field.emotsy-inline-field {
 			flex-wrap: nowrap;
 			align-items: flex-start;
 			display: block
 		}
 
-		.bee-form .bee-form-row .bee-field .bee-form-option-wrapper {
+		.emotsy-form .emotsy-form-row .emotsy-field .emotsy-form-option-wrapper {
 			align-items: flex-start;
 			display: inline-flex
 		}
 
-		.bee-form .bee-form-row .bee-field .bee-form-option-wrapper>input {
+		.emotsy-form .emotsy-form-row .emotsy-field .emotsy-form-option-wrapper>input {
 			margin: 0 0 0 3px
 		}
 
-		.bee-form .bee-form-row .bee-field .bee-form-option-wrapper>label {
+		.emotsy-form .emotsy-form-row .emotsy-field .emotsy-form-option-wrapper>label {
 			min-width: 0
 		}
 
-		.bee-form .bee-form-row .bee-field input:not([type=checkbox]):not([type=radio]) {
+		.emotsy-form .emotsy-form-row .emotsy-field input:not([type=checkbox]):not([type=radio]) {
 			flex-grow: 1;
 			font-family: inherit;
 			font-size: inherit
 		}
 
-		.bee-form .bee-form-row .bee-field input[type=checkbox]:not(:first-of-type) {
+		.emotsy-form .emotsy-form-row .emotsy-field input[type=checkbox]:not(:first-of-type) {
 			margin-left: 15px
 		}
 
-		.bee-form .bee-form-row .bee-field button {
+		.emotsy-form .emotsy-form-row .emotsy-field button {
 			font-family: inherit;
 			font-size: inherit;
 			cursor: pointer
 		}
 
-		.bee-form .bee-form-row .bee-field .bee-button-container {
+		.emotsy-form .emotsy-form-row .emotsy-field .emotsy-button-container {
 			flex-grow: 1
 		}
 
-		.bee-form input[type=color] {
+		.emotsy-form input[type=color] {
 			border: none;
 			height: 38px
 		}
 
-		.bee-form input[type=color]::-webkit-color-swatch-wrapper {
+		.emotsy-form input[type=color]::-webkit-color-swatch-wrapper {
 			margin: 0;
 			padding: 2px
 		}
 
-		.bee-form input[type=color]::-webkit-color-swatch {
+		.emotsy-form input[type=color]::-webkit-color-swatch {
 			margin: 0;
 			padding: 0
 		}
 
-		.bee-icon {
+		.emotsy-icon {
 			display: inline-block;
 			vertical-align: middle
 		}
 
-		.bee-icon .bee-content {
+		.emotsy-icon .emotsy-content {
 			display: flex;
 			align-items: center
 		}
 
-		.bee-image img {
+		.emotsy-image img {
 			display: block;
 			width: 100%
 		}
 
-		.bee-menu .bee-hamburger-controls {
+		.emotsy-menu .emotsy-hamburger-controls {
 			cursor: pointer;
 			display: inline-block;
 			position: relative
 		}
 
-		.bee-menu .bee-hamburger-controls span {
+		.emotsy-menu .emotsy-hamburger-controls span {
 			display: block;
 			position: absolute;
 			top: 50%;
@@ -224,55 +224,55 @@
 			transition: .12s ease-in-out
 		}
 
-		.bee-menu ul {
+		.emotsy-menu ul {
 			list-style-type: none;
 			margin: 0;
 			padding: 0
 		}
 
-		.bee-menu ul.bee-horizontal li {
+		.emotsy-menu ul.emotsy-horizontal li {
 			display: inline-block
 		}
 
-		.bee-paragraph,
-		.bee-text {
+		.emotsy-paragraph,
+		.emotsy-text {
 			overflow-wrap: anywhere
 		}
 
-		.bee-social .icon img {
+		.emotsy-social .icon img {
 			max-height: 32px
 		}
 
-		.bee-row-1 .bee-row-content,
-		.bee-row-10 .bee-row-content,
-		.bee-row-11 .bee-row-content,
-		.bee-row-12 .bee-row-content,
-		.bee-row-13 .bee-row-content,
-		.bee-row-14 .bee-row-content,
-		.bee-row-2 .bee-row-content,
-		.bee-row-3 .bee-row-content,
-		.bee-row-4 .bee-row-content,
-		.bee-row-5 .bee-row-content,
-		.bee-row-6 .bee-row-content,
-		.bee-row-7 .bee-row-content,
-		.bee-row-8 .bee-row-content,
-		.bee-row-9 .bee-row-content {
+		.emotsy-row-1 .emotsy-row-content,
+		.emotsy-row-10 .emotsy-row-content,
+		.emotsy-row-11 .emotsy-row-content,
+		.emotsy-row-12 .emotsy-row-content,
+		.emotsy-row-13 .emotsy-row-content,
+		.emotsy-row-14 .emotsy-row-content,
+		.emotsy-row-2 .emotsy-row-content,
+		.emotsy-row-3 .emotsy-row-content,
+		.emotsy-row-4 .emotsy-row-content,
+		.emotsy-row-5 .emotsy-row-content,
+		.emotsy-row-6 .emotsy-row-content,
+		.emotsy-row-7 .emotsy-row-content,
+		.emotsy-row-8 .emotsy-row-content,
+		.emotsy-row-9 .emotsy-row-content {
 			background-repeat: no-repeat;
 			color: #000000
 		}
 
-		.bee-row-1 .bee-col-1,
-		.bee-row-1 .bee-col-2 {
+		.emotsy-row-1 .emotsy-col-1,
+		.emotsy-row-1 .emotsy-col-2 {
 			padding-bottom: 10px;
 			padding-top: 10px
 		}
 
-		.bee-row-1 .bee-col-1 .bee-block-1 {
+		.emotsy-row-1 .emotsy-col-1 .emotsy-block-1 {
 			padding: 17px 5px 17px 15px;
 			width: 100%
 		}
 
-		.bee-row-1 .bee-col-2 .bee-block-1 {
+		.emotsy-row-1 .emotsy-col-2 .emotsy-block-1 {
 			color: #f4f4f4;
 			font-family: Oswald, Arial, 'Helvetica Neue', Helvetica, sans-serif;
 			font-size: 18px;
@@ -280,160 +280,160 @@
 			text-align: right
 		}
 
-		.bee-row-2 {
+		.emotsy-row-2 {
 			background-image: url('assets/2_bg_Top.png');
 			background-position: top center
 		}
 
-		.bee-row-2 .bee-col-1 {
+		.emotsy-row-2 .emotsy-col-1 {
 			padding-left: 20px;
 			padding-right: 20px
 		}
 
-		.bee-row-2 .bee-col-1 .bee-block-1,
-		.bee-row-5 .bee-col-1 .bee-block-1,
-		.bee-row-7 .bee-col-1 .bee-block-1,
-		.bee-row-8 .bee-col-1 .bee-block-1 {
+		.emotsy-row-2 .emotsy-col-1 .emotsy-block-1,
+		.emotsy-row-5 .emotsy-col-1 .emotsy-block-1,
+		.emotsy-row-7 .emotsy-col-1 .emotsy-block-1,
+		.emotsy-row-8 .emotsy-col-1 .emotsy-block-1 {
 			padding: 30px
 		}
 
-		.bee-row-13 .bee-col-1 .bee-block-2,
-		.bee-row-13 .bee-col-3 .bee-block-1,
-		.bee-row-2 .bee-col-1 .bee-block-2,
-		.bee-row-2 .bee-col-1 .bee-block-3,
-		.bee-row-9 .bee-col-1 .bee-block-1 {
+		.emotsy-row-13 .emotsy-col-1 .emotsy-block-2,
+		.emotsy-row-13 .emotsy-col-3 .emotsy-block-1,
+		.emotsy-row-2 .emotsy-col-1 .emotsy-block-2,
+		.emotsy-row-2 .emotsy-col-1 .emotsy-block-3,
+		.emotsy-row-9 .emotsy-col-1 .emotsy-block-1 {
 			padding-bottom: 10px;
 			padding-left: 10px;
 			padding-right: 10px
 		}
 
-		.bee-row-3 {
+		.emotsy-row-3 {
 			background-image: url('assets/3_bg_Centrale.png');
 			background-position: center top
 		}
 
-		.bee-row-10 .bee-col-1 .bee-block-1,
-		.bee-row-10 .bee-col-1 .bee-block-3,
-		.bee-row-10 .bee-col-2 .bee-block-1,
-		.bee-row-10 .bee-col-2 .bee-block-3,
-		.bee-row-10 .bee-col-3 .bee-block-1,
-		.bee-row-10 .bee-col-3 .bee-block-3,
-		.bee-row-10 .bee-col-4 .bee-block-1,
-		.bee-row-10 .bee-col-4 .bee-block-3,
-		.bee-row-3 .bee-col-1 {
+		.emotsy-row-10 .emotsy-col-1 .emotsy-block-1,
+		.emotsy-row-10 .emotsy-col-1 .emotsy-block-3,
+		.emotsy-row-10 .emotsy-col-2 .emotsy-block-1,
+		.emotsy-row-10 .emotsy-col-2 .emotsy-block-3,
+		.emotsy-row-10 .emotsy-col-3 .emotsy-block-1,
+		.emotsy-row-10 .emotsy-col-3 .emotsy-block-3,
+		.emotsy-row-10 .emotsy-col-4 .emotsy-block-1,
+		.emotsy-row-10 .emotsy-col-4 .emotsy-block-3,
+		.emotsy-row-3 .emotsy-col-1 {
 			padding-left: 10px;
 			padding-right: 10px;
 			padding-top: 5px
 		}
 
-		.bee-row-3 .bee-col-1 .bee-block-1 {
+		.emotsy-row-3 .emotsy-col-1 .emotsy-block-1 {
 			padding-bottom: 20px;
 			width: 100%
 		}
 
-		.bee-row-10 .bee-col-1 .bee-block-5,
-		.bee-row-10 .bee-col-2 .bee-block-5,
-		.bee-row-10 .bee-col-3 .bee-block-5,
-		.bee-row-10 .bee-col-4 .bee-block-5,
-		.bee-row-3 .bee-col-1 .bee-block-2 {
+		.emotsy-row-10 .emotsy-col-1 .emotsy-block-5,
+		.emotsy-row-10 .emotsy-col-2 .emotsy-block-5,
+		.emotsy-row-10 .emotsy-col-3 .emotsy-block-5,
+		.emotsy-row-10 .emotsy-col-4 .emotsy-block-5,
+		.emotsy-row-3 .emotsy-col-1 .emotsy-block-2 {
 			padding: 10px;
 			text-align: center
 		}
 
-		.bee-row-4 {
+		.emotsy-row-4 {
 			background-image: url('assets/4_bg_Bottom.png');
 			background-position: top center
 		}
 
-		.bee-row-4 .bee-col-1 {
+		.emotsy-row-4 .emotsy-col-1 {
 			padding-top: 10px
 		}
 
-		.bee-row-12 .bee-col-1 .bee-block-1,
-		.bee-row-14 .bee-col-1 .bee-block-1,
-		.bee-row-4 .bee-col-1 .bee-block-1,
-		.bee-row-4 .bee-col-1 .bee-block-2,
-		.bee-row-6 .bee-col-2 .bee-block-3 {
+		.emotsy-row-12 .emotsy-col-1 .emotsy-block-1,
+		.emotsy-row-14 .emotsy-col-1 .emotsy-block-1,
+		.emotsy-row-4 .emotsy-col-1 .emotsy-block-1,
+		.emotsy-row-4 .emotsy-col-1 .emotsy-block-2,
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-3 {
 			padding: 10px
 		}
 
-		.bee-row-11 .bee-col-1,
-		.bee-row-12 .bee-col-1,
-		.bee-row-14 .bee-col-1,
-		.bee-row-15 .bee-col-1,
-		.bee-row-5 .bee-col-1,
-		.bee-row-7 .bee-col-1 {
+		.emotsy-row-11 .emotsy-col-1,
+		.emotsy-row-12 .emotsy-col-1,
+		.emotsy-row-14 .emotsy-col-1,
+		.emotsy-row-15 .emotsy-col-1,
+		.emotsy-row-5 .emotsy-col-1,
+		.emotsy-row-7 .emotsy-col-1 {
 			padding-bottom: 5px;
 			padding-top: 5px
 		}
 
-		.bee-row-6 .bee-col-1 {
+		.emotsy-row-6 .emotsy-col-1 {
 			padding: 5px 30px
 		}
 
-		.bee-row-6 .bee-col-1 .bee-block-1 {
+		.emotsy-row-6 .emotsy-col-1 .emotsy-block-1 {
 			padding-bottom: 20px;
 			padding-top: 30px;
 			width: 100%
 		}
 
-		.bee-row-6 .bee-col-2 {
+		.emotsy-row-6 .emotsy-col-2 {
 			background-color: #f6f6f6;
 			padding: 30px
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-1 {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-1 {
 			padding-bottom: 5px;
 			padding-left: 10px;
 			padding-right: 10px
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-2 {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-2 {
 			padding-bottom: 25px;
 			padding-left: 10px;
 			padding-right: 10px
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-4 {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 {
 			font-family: inherit;
 			font-size: 17px;
 			padding: 15px 15px 35px
 		}
 
-		.bee-row-8 {
+		.emotsy-row-8 {
 			background-image: url('assets/5_Divider_btm.png');
 			background-position: center top;
 			background-repeat: repeat
 		}
 
-		.bee-row-8 .bee-col-1 {
+		.emotsy-row-8 .emotsy-col-1 {
 			padding-bottom: 15px;
 			padding-top: 5px
 		}
 
-		.bee-row-10,
-		.bee-row-11,
-		.bee-row-9 {
+		.emotsy-row-10,
+		.emotsy-row-11,
+		.emotsy-row-9 {
 			background-color: #48cac0;
 			background-repeat: no-repeat
 		}
 
-		.bee-row-9 .bee-col-1 {
+		.emotsy-row-9 .emotsy-col-1 {
 			padding-bottom: 5px;
 			padding-top: 10px
 		}
 
-		.bee-row-13 .bee-col-1 .bee-block-3,
-		.bee-row-9 .bee-col-1 .bee-block-2 {
+		.emotsy-row-13 .emotsy-col-1 .emotsy-block-3,
+		.emotsy-row-9 .emotsy-col-1 .emotsy-block-2 {
 			padding-bottom: 15px;
 			padding-top: 15px;
 			width: 100%
 		}
 
-		.bee-row-10 .bee-col-1,
-		.bee-row-10 .bee-col-2,
-		.bee-row-10 .bee-col-3,
-		.bee-row-10 .bee-col-4 {
+		.emotsy-row-10 .emotsy-col-1,
+		.emotsy-row-10 .emotsy-col-2,
+		.emotsy-row-10 .emotsy-col-3,
+		.emotsy-row-10 .emotsy-col-4 {
 			background-color: #ffffff;
 			border-bottom: 10px solid #48CAC0;
 			border-left: 10px solid #48CAC0;
@@ -443,72 +443,72 @@
 			padding-top: 10px
 		}
 
-		.bee-row-10 .bee-col-1 .bee-block-2,
-		.bee-row-10 .bee-col-2 .bee-block-2,
-		.bee-row-10 .bee-col-3 .bee-block-2,
-		.bee-row-10 .bee-col-4 .bee-block-2 {
+		.emotsy-row-10 .emotsy-col-1 .emotsy-block-2,
+		.emotsy-row-10 .emotsy-col-2 .emotsy-block-2,
+		.emotsy-row-10 .emotsy-col-3 .emotsy-block-2,
+		.emotsy-row-10 .emotsy-col-4 .emotsy-block-2 {
 			padding-left: 20px;
 			padding-right: 20px;
 			width: 100%
 		}
 
-		.bee-row-10 .bee-col-1 .bee-block-4,
-		.bee-row-10 .bee-col-2 .bee-block-4,
-		.bee-row-10 .bee-col-3 .bee-block-4,
-		.bee-row-10 .bee-col-4 .bee-block-4 {
+		.emotsy-row-10 .emotsy-col-1 .emotsy-block-4,
+		.emotsy-row-10 .emotsy-col-2 .emotsy-block-4,
+		.emotsy-row-10 .emotsy-col-3 .emotsy-block-4,
+		.emotsy-row-10 .emotsy-col-4 .emotsy-block-4 {
 			padding-bottom: 10px;
 			padding-left: 20px;
 			padding-right: 20px
 		}
 
-		.bee-row-11 .bee-col-1 .bee-block-1 {
+		.emotsy-row-11 .emotsy-col-1 .emotsy-block-1 {
 			padding: 10px 10px 20px
 		}
 
-		.bee-row-12,
-		.bee-row-13,
-		.bee-row-14 {
+		.emotsy-row-12,
+		.emotsy-row-13,
+		.emotsy-row-14 {
 			background-color: #082954;
 			background-repeat: no-repeat
 		}
 
-		.bee-row-15,
-		.bee-row-15 .bee-row-content {
+		.emotsy-row-15,
+		.emotsy-row-15 .emotsy-row-content {
 			background-color: #ffffff;
 			background-repeat: no-repeat
 		}
 
-		.bee-row-13 .bee-col-1,
-		.bee-row-13 .bee-col-2,
-		.bee-row-13 .bee-col-3 {
+		.emotsy-row-13 .emotsy-col-1,
+		.emotsy-row-13 .emotsy-col-2,
+		.emotsy-row-13 .emotsy-col-3 {
 			padding: 5px 10px
 		}
 
-		.bee-row-13 .bee-col-1 .bee-block-1 {
+		.emotsy-row-13 .emotsy-col-1 .emotsy-block-1 {
 			padding-bottom: 5px;
 			padding-left: 10px;
 			padding-right: 5px;
 			width: 100%
 		}
 
-		.bee-row-13 .bee-col-2 .bee-block-1 {
+		.emotsy-row-13 .emotsy-col-2 .emotsy-block-1 {
 			padding-bottom: 10px;
 			padding-right: 10px
 		}
 
-		.bee-row-13 .bee-col-2 .bee-block-2 {
+		.emotsy-row-13 .emotsy-col-2 .emotsy-block-2 {
 			color: #e0d8d8;
 			font-family: inherit;
 			font-size: 15px;
 			text-align: left
 		}
 
-		.bee-row-13 .bee-col-3 .bee-block-2 {
+		.emotsy-row-13 .emotsy-col-3 .emotsy-block-2 {
 			padding: 10px;
 			text-align: right
 		}
 
-		.bee-row-15 .bee-col-1 .bee-block-1 {
+		.emotsy-row-15 .emotsy-col-1 .emotsy-block-1 {
 			color: #1e0e4b;
 			font-family: Inter, sans-serif;
 			font-size: 15px;
@@ -517,49 +517,49 @@
 			text-align: center
 		}
 
-		.bee-row-2 .bee-col-1 .bee-block-2,
-		.bee-row-6 .bee-col-2 .bee-block-1,
-		.bee-row-9 .bee-col-1 .bee-block-1 {
+		.emotsy-row-2 .emotsy-col-1 .emotsy-block-2,
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-1,
+		.emotsy-row-9 .emotsy-col-1 .emotsy-block-1 {
 			font-family: Oswald, Arial, "Helvetica Neue", Helvetica, sans-serif;
 			text-align: center
 		}
 
-		.bee-row-2 .bee-col-1 .bee-block-2 {
+		.emotsy-row-2 .emotsy-col-1 .emotsy-block-2 {
 			color: #ffffff;
 			font-size: 58px;
 			line-height: 120%
 		}
 
-		.bee-row-10 .bee-col-1 .bee-block-1 p:not(:last-child),
-		.bee-row-10 .bee-col-1 .bee-block-3 p:not(:last-child),
-		.bee-row-10 .bee-col-1 .bee-block-4 p:not(:last-child),
-		.bee-row-10 .bee-col-2 .bee-block-1 p:not(:last-child),
-		.bee-row-10 .bee-col-2 .bee-block-3 p:not(:last-child),
-		.bee-row-10 .bee-col-2 .bee-block-4 p:not(:last-child),
-		.bee-row-10 .bee-col-3 .bee-block-1 p:not(:last-child),
-		.bee-row-10 .bee-col-3 .bee-block-3 p:not(:last-child),
-		.bee-row-10 .bee-col-3 .bee-block-4 p:not(:last-child),
-		.bee-row-10 .bee-col-4 .bee-block-1 p:not(:last-child),
-		.bee-row-10 .bee-col-4 .bee-block-3 p:not(:last-child),
-		.bee-row-10 .bee-col-4 .bee-block-4 p:not(:last-child),
-		.bee-row-13 .bee-col-2 .bee-block-1 p:not(:last-child),
-		.bee-row-13 .bee-col-3 .bee-block-1 p:not(:last-child),
-		.bee-row-2 .bee-col-1 .bee-block-2 p:not(:last-child),
-		.bee-row-2 .bee-col-1 .bee-block-3 p:not(:last-child),
-		.bee-row-6 .bee-col-2 .bee-block-1 p:not(:last-child),
-		.bee-row-6 .bee-col-2 .bee-block-2 p:not(:last-child),
-		.bee-row-9 .bee-col-1 .bee-block-1 p:not(:last-child) {
+		.emotsy-row-10 .emotsy-col-1 .emotsy-block-1 p:not(:last-child),
+		.emotsy-row-10 .emotsy-col-1 .emotsy-block-3 p:not(:last-child),
+		.emotsy-row-10 .emotsy-col-1 .emotsy-block-4 p:not(:last-child),
+		.emotsy-row-10 .emotsy-col-2 .emotsy-block-1 p:not(:last-child),
+		.emotsy-row-10 .emotsy-col-2 .emotsy-block-3 p:not(:last-child),
+		.emotsy-row-10 .emotsy-col-2 .emotsy-block-4 p:not(:last-child),
+		.emotsy-row-10 .emotsy-col-3 .emotsy-block-1 p:not(:last-child),
+		.emotsy-row-10 .emotsy-col-3 .emotsy-block-3 p:not(:last-child),
+		.emotsy-row-10 .emotsy-col-3 .emotsy-block-4 p:not(:last-child),
+		.emotsy-row-10 .emotsy-col-4 .emotsy-block-1 p:not(:last-child),
+		.emotsy-row-10 .emotsy-col-4 .emotsy-block-3 p:not(:last-child),
+		.emotsy-row-10 .emotsy-col-4 .emotsy-block-4 p:not(:last-child),
+		.emotsy-row-13 .emotsy-col-2 .emotsy-block-1 p:not(:last-child),
+		.emotsy-row-13 .emotsy-col-3 .emotsy-block-1 p:not(:last-child),
+		.emotsy-row-2 .emotsy-col-1 .emotsy-block-2 p:not(:last-child),
+		.emotsy-row-2 .emotsy-col-1 .emotsy-block-3 p:not(:last-child),
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-1 p:not(:last-child),
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-2 p:not(:last-child),
+		.emotsy-row-9 .emotsy-col-1 .emotsy-block-1 p:not(:last-child) {
 			margin-bottom: undefined
 		}
 
-		.bee-row-2 .bee-col-1 .bee-block-3 {
+		.emotsy-row-2 .emotsy-col-1 .emotsy-block-3 {
 			color: #082954;
 			font-size: 22px;
 			line-height: 120%;
 			text-align: center
 		}
 
-		.bee-row-3 .bee-col-1 .bee-block-2 a {
+		.emotsy-row-3 .emotsy-col-1 .emotsy-block-2 a {
 			background-color: #e81c76;
 			border-radius: 13px;
 			color: #ffffff;
@@ -570,67 +570,67 @@
 			width: auto
 		}
 
-		.bee-row-1 .bee-col-2 .bee-block-1 li {
+		.emotsy-row-1 .emotsy-col-2 .emotsy-block-1 li {
 			padding: 5px
 		}
 
-		.bee-row-1 .bee-col-2 .bee-block-1 li a {
+		.emotsy-row-1 .emotsy-col-2 .emotsy-block-1 li a {
 			color: #48cac0
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-1 {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-1 {
 			color: #e81c76;
 			font-size: 46px;
 			line-height: 120%
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-2 {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-2 {
 			color: #555555;
 			font-size: 18px;
 			line-height: 180%;
 			text-align: center
 		}
 
-		.bee-row-9 .bee-col-1 .bee-block-1 {
+		.emotsy-row-9 .emotsy-col-1 .emotsy-block-1 {
 			color: #0068a5;
 			font-size: 26px;
 			line-height: 120%
 		}
 
-		.bee-row-10 .bee-col-1 .bee-block-1,
-		.bee-row-10 .bee-col-2 .bee-block-1,
-		.bee-row-10 .bee-col-3 .bee-block-1,
-		.bee-row-10 .bee-col-4 .bee-block-1 {
+		.emotsy-row-10 .emotsy-col-1 .emotsy-block-1,
+		.emotsy-row-10 .emotsy-col-2 .emotsy-block-1,
+		.emotsy-row-10 .emotsy-col-3 .emotsy-block-1,
+		.emotsy-row-10 .emotsy-col-4 .emotsy-block-1 {
 			color: #082954;
 			font-size: 14px;
 			line-height: 120%;
 			text-align: left
 		}
 
-		.bee-row-10 .bee-col-1 .bee-block-3,
-		.bee-row-10 .bee-col-2 .bee-block-3,
-		.bee-row-10 .bee-col-3 .bee-block-3,
-		.bee-row-10 .bee-col-4 .bee-block-3 {
+		.emotsy-row-10 .emotsy-col-1 .emotsy-block-3,
+		.emotsy-row-10 .emotsy-col-2 .emotsy-block-3,
+		.emotsy-row-10 .emotsy-col-3 .emotsy-block-3,
+		.emotsy-row-10 .emotsy-col-4 .emotsy-block-3 {
 			color: #082954;
 			font-size: 20px;
 			line-height: 120%;
 			text-align: center
 		}
 
-		.bee-row-10 .bee-col-1 .bee-block-4,
-		.bee-row-10 .bee-col-2 .bee-block-4,
-		.bee-row-10 .bee-col-3 .bee-block-4,
-		.bee-row-10 .bee-col-4 .bee-block-4 {
+		.emotsy-row-10 .emotsy-col-1 .emotsy-block-4,
+		.emotsy-row-10 .emotsy-col-2 .emotsy-block-4,
+		.emotsy-row-10 .emotsy-col-3 .emotsy-block-4,
+		.emotsy-row-10 .emotsy-col-4 .emotsy-block-4 {
 			color: #555555;
 			font-size: 14px;
 			line-height: 200%;
 			text-align: center
 		}
 
-		.bee-row-10 .bee-col-1 .bee-block-5 a,
-		.bee-row-10 .bee-col-2 .bee-block-5 a,
-		.bee-row-10 .bee-col-3 .bee-block-5 a,
-		.bee-row-10 .bee-col-4 .bee-block-5 a {
+		.emotsy-row-10 .emotsy-col-1 .emotsy-block-5 a,
+		.emotsy-row-10 .emotsy-col-2 .emotsy-block-5 a,
+		.emotsy-row-10 .emotsy-col-3 .emotsy-block-5 a,
+		.emotsy-row-10 .emotsy-col-4 .emotsy-block-5 a {
 			border-bottom: 2px solid #E81C76;
 			border-left: 2px solid #E81C76;
 			border-radius: 13px;
@@ -645,192 +645,192 @@
 			width: auto
 		}
 
-		.bee-row-13 .bee-col-2 .bee-block-1 {
+		.emotsy-row-13 .emotsy-col-2 .emotsy-block-1 {
 			color: #f9f9f9;
 			font-size: 16px;
 			line-height: 150%;
 			text-align: left
 		}
 
-		.bee-row-13 .bee-col-2 .bee-block-2 li {
+		.emotsy-row-13 .emotsy-col-2 .emotsy-block-2 li {
 			padding-left: 5px;
 			padding-right: 5px;
 			padding-top: 5px
 		}
 
-		.bee-row-13 .bee-col-2 .bee-block-2 li a {
+		.emotsy-row-13 .emotsy-col-2 .emotsy-block-2 li a {
 			color: #ffffff
 		}
 
 		@media (max-width:768px) {
-			.bee-form form {
+			.emotsy-form form {
 				width: 100% !important
 			}
 
-			img.bee-fullwidthOnMobile {
+			img.emotsy-fullwidthOnMobile {
 				max-width: none !important
 			}
 
-			.bee-menu ul.with-bee-hamburger {
+			.emotsy-menu ul.with-emotsy-hamburger {
 				display: none;
 				padding: 5px 0;
 				position: relative;
 				top: -4px
 			}
 
-			.bee-menu ul.with-bee-hamburger li {
+			.emotsy-menu ul.with-emotsy-hamburger li {
 				display: block;
 				text-align: center
 			}
 
-			.bee-menu ul.with-bee-hamburger li a {
+			.emotsy-menu ul.with-emotsy-hamburger li a {
 				text-decoration: none
 			}
 
-			.bee-menu ul.with-bee-hamburger span,
-			.bee-mobile_hide {
+			.emotsy-menu ul.with-emotsy-hamburger span,
+			.emotsy-mobile_hide {
 				display: none
 			}
 
-			#bee-hamburger-memu-r0c1m0:checked~ul,
-			#bee-hamburger-memu-r12c1m1:checked~ul,
-			.bee-row-content:not(.no_stack) {
+			#emotsy-hamburger-memu-r0c1m0:checked~ul,
+			#emotsy-hamburger-memu-r12c1m1:checked~ul,
+			.emotsy-row-content:not(.no_stack) {
 				display: block
 			}
 
-			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls {
+			.emotsy-row-1 .emotsy-col-2 .emotsy-block-1 .emotsy-hamburger-controls {
 				width: 36px;
 				height: 36px;
 				background-color: #f2f2f2;
 				border-radius: 50%
 			}
 
-			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls span,
-			.bee-row-13 .bee-col-2 .bee-block-2 .bee-hamburger-controls span {
+			.emotsy-row-1 .emotsy-col-2 .emotsy-block-1 .emotsy-hamburger-controls span,
+			.emotsy-row-13 .emotsy-col-2 .emotsy-block-2 .emotsy-hamburger-controls span {
 				width: 18px;
 				height: 18px
 			}
 
-			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls span.bee-hamburger-open {
+			.emotsy-row-1 .emotsy-col-2 .emotsy-block-1 .emotsy-hamburger-controls span.emotsy-hamburger-open {
 				background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjNDhjYWMwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgd2lkdGg9IjY0IiB5PSI1MiIvPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiIHk9IjI2Ii8+PC9nPjwvc3ZnPg==");
 				transform: translate(-50%, -50%) scaleY(1)
 			}
 
-			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls span.bee-hamburger-close {
+			.emotsy-row-1 .emotsy-col-2 .emotsy-block-1 .emotsy-hamburger-controls span.emotsy-hamburger-close {
 				background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjNDhjYWMwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB0cmFuc2Zvcm09Im1hdHJpeCgtLjcwNzEwNjc4IC0uNzA3MTA2NzggLjcwNzEwNjc4IC0uNzA3MTA2NzggMzEuOTkxMzc4IDc3LjIzNDAxOSkiIHdpZHRoPSI4MiIgeD0iLTkuMDA4NjIyIiB5PSIyNS45OTEzNzgiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgdHJhbnNmb3JtPSJtYXRyaXgoLS43MDcxMDY3OCAuNzA3MTA2NzggLS43MDcxMDY3OCAtLjcwNzEwNjc4IDc3LjgxOTgwNiAzMi4yMzQwMTkpIiB3aWR0aD0iODIiIHg9Ii04Ljc2NTk4MSIgeT0iMjYuMjM0MDE5Ii8+PC9nPjwvc3ZnPg==");
 				transform: translate(-50%, -50%) scaleY(0)
 			}
 
-			.bee-row-1 .bee-col-2 .bee-block-1 ul.with-bee-hamburger {
+			.emotsy-row-1 .emotsy-col-2 .emotsy-block-1 ul.with-emotsy-hamburger {
 				background-color: #f2f2f2
 			}
 
-			.bee-row-1 .bee-col-2 .bee-block-1 ul.with-bee-hamburger li,
-			.bee-row-1 .bee-col-2 .bee-block-1 ul.with-bee-hamburger li a {
+			.emotsy-row-1 .emotsy-col-2 .emotsy-block-1 ul.with-emotsy-hamburger li,
+			.emotsy-row-1 .emotsy-col-2 .emotsy-block-1 ul.with-emotsy-hamburger li a {
 				color: #48cac0
 			}
 
-			#bee-hamburger-memu-r0c1m0:checked~.bee-hamburger-controls .bee-hamburger-open,
-			#bee-hamburger-memu-r12c1m1:checked~.bee-hamburger-controls .bee-hamburger-open {
+			#emotsy-hamburger-memu-r0c1m0:checked~.emotsy-hamburger-controls .emotsy-hamburger-open,
+			#emotsy-hamburger-memu-r12c1m1:checked~.emotsy-hamburger-controls .emotsy-hamburger-open {
 				transform: translate(-50%, -50%) scaleY(0)
 			}
 
-			#bee-hamburger-memu-r0c1m0:checked~.bee-hamburger-controls .bee-hamburger-close,
-			#bee-hamburger-memu-r12c1m1:checked~.bee-hamburger-controls .bee-hamburger-close {
+			#emotsy-hamburger-memu-r0c1m0:checked~.emotsy-hamburger-controls .emotsy-hamburger-close,
+			#emotsy-hamburger-memu-r12c1m1:checked~.emotsy-hamburger-controls .emotsy-hamburger-close {
 				transform: translate(-50%, -50%) scaleY(1)
 			}
 
-			.bee-row-13 .bee-col-2 .bee-block-2 .bee-hamburger-controls {
+			.emotsy-row-13 .emotsy-col-2 .emotsy-block-2 .emotsy-hamburger-controls {
 				width: 36px;
 				height: 36px;
 				background-color: #000000;
 				border-radius: 0
 			}
 
-			.bee-row-13 .bee-col-2 .bee-block-2 .bee-hamburger-controls span.bee-hamburger-open {
+			.emotsy-row-13 .emotsy-col-2 .emotsy-block-2 .emotsy-hamburger-controls span.emotsy-hamburger-open {
 				background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjZmZmZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgd2lkdGg9IjY0IiB5PSI1MiIvPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiIHk9IjI2Ii8+PC9nPjwvc3ZnPg==");
 				transform: translate(-50%, -50%) scaleY(1)
 			}
 
-			.bee-row-13 .bee-col-2 .bee-block-2 .bee-hamburger-controls span.bee-hamburger-close {
+			.emotsy-row-13 .emotsy-col-2 .emotsy-block-2 .emotsy-hamburger-controls span.emotsy-hamburger-close {
 				background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjZmZmZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB0cmFuc2Zvcm09Im1hdHJpeCgtLjcwNzEwNjc4IC0uNzA3MTA2NzggLjcwNzEwNjc4IC0uNzA3MTA2NzggMzEuOTkxMzc4IDc3LjIzNDAxOSkiIHdpZHRoPSI4MiIgeD0iLTkuMDA4NjIyIiB5PSIyNS45OTEzNzgiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgdHJhbnNmb3JtPSJtYXRyaXgoLS43MDcxMDY3OCAuNzA3MTA2NzggLS43MDcxMDY3OCAtLjcwNzEwNjc4IDc3LjgxOTgwNiAzMi4yMzQwMTkpIiB3aWR0aD0iODIiIHg9Ii04Ljc2NTk4MSIgeT0iMjYuMjM0MDE5Ii8+PC9nPjwvc3ZnPg==");
 				transform: translate(-50%, -50%) scaleY(0)
 			}
 
-			.bee-row-13 .bee-col-2 .bee-block-2 ul.with-bee-hamburger {
+			.emotsy-row-13 .emotsy-col-2 .emotsy-block-2 ul.with-emotsy-hamburger {
 				background-color: #000000
 			}
 
-			.bee-row-13 .bee-col-2 .bee-block-2 ul.with-bee-hamburger li,
-			.bee-row-13 .bee-col-2 .bee-block-2 ul.with-bee-hamburger li a {
+			.emotsy-row-13 .emotsy-col-2 .emotsy-block-2 ul.with-emotsy-hamburger li,
+			.emotsy-row-13 .emotsy-col-2 .emotsy-block-2 ul.with-emotsy-hamburger li a {
 				color: #ffffff
 			}
 		}
 
-		.bee-row-13 .bee-col-3 .bee-block-1 {
+		.emotsy-row-13 .emotsy-col-3 .emotsy-block-1 {
 			color: #f9f9f9;
 			font-size: 16px;
 			line-height: 120%;
 			text-align: right
 		}
 
-		.bee-row-15 .bee-col-1 .bee-block-1 .bee-icon-image {
+		.emotsy-row-15 .emotsy-col-1 .emotsy-block-1 .emotsy-icon-image {
 			padding: 5px 6px 5px 5px
 		}
 
-		.bee-row-15 .bee-col-1 .bee-block-1 .bee-icon:not(.bee-icon-first) .bee-content {
+		.emotsy-row-15 .emotsy-col-1 .emotsy-block-1 .emotsy-icon:not(.emotsy-icon-first) .emotsy-content {
 			margin-left: 0
 		}
 
-		.bee-row-15 .bee-col-1 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
+		.emotsy-row-15 .emotsy-col-1 .emotsy-block-1 .emotsy-icon::not(.emotsy-icon-last) .emotsy-content {
 			margin-right: 0
 		}
 
-		.bee-row-15 .bee-col-1 .bee-block-1 .bee-icon-label a {
+		.emotsy-row-15 .emotsy-col-1 .emotsy-block-1 .emotsy-icon-label a {
 			color: #1e0e4b
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-4 form {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 form {
 			display: inline-block;
 			width: undefined
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-4 div.label,
-		.bee-row-6 .bee-col-2 .bee-block-4 label {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 div.label,
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 label {
 			color: #082954;
 			line-height: 200%;
 			text-align: left;
 			display: block
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-4 ::-webkit-input-placeholder {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 ::-webkit-input-placeholder {
 			color: #082954
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-4 :-moz-placeholder {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 :-moz-placeholder {
 			color: #082954
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-4 ::-moz-placeholder {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 ::-moz-placeholder {
 			color: #082954
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-4 :-ms-input-placeholder {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 :-ms-input-placeholder {
 			color: #082954
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-4 .bee-field>label:first-child,
-		.bee-row-6 .bee-col-2 .bee-block-4 div.label {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 .emotsy-field>label:first-child,
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 div.label {
 			padding: 3px
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-4 .bee-field.bee-inline-field input[type=checkbox] {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 .emotsy-field.emotsy-inline-field input[type=checkbox] {
 			position: relative;
 			color: purple;
 			top: 11px
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-4 input:not([type=checkbox]):not([type=radio]):not([type=image]) {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 input:not([type=checkbox]):not([type=radio]):not([type=image]) {
 			background-color: #ffffff;
 			border-bottom: 1px solid transparent;
 			border-left: 1px solid transparent;
@@ -842,11 +842,11 @@
 			min-height: 44px
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-4 input:not([type=checkbox]):not([type=radio]):focus {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 input:not([type=checkbox]):not([type=radio]):focus {
 			outline-color: #8cc8f4
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-4 button {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 button {
 			background-color: #e81c76;
 			border-bottom: 0 solid transparent;
 			border-left: 0 solid transparent;
@@ -859,7 +859,7 @@
 			width: auto
 		}
 
-		.bee-row-6 .bee-col-2 .bee-block-4 .bee-button-container {
+		.emotsy-row-6 .emotsy-col-2 .emotsy-block-4 .emotsy-button-container {
 			padding-buttom: 0px;
 			text-align: center
 		}
@@ -867,16 +867,16 @@
 </head>
 
 <body>
-	<div class="bee-page-container">
-		<div class="bee-row bee-row-1">
-			<div class="bee-row-content no_stack">
-				<div class="bee-col bee-col-1 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-image"><img alt="Image" class="bee-fixedwidth bee-fullwidthOnMobile" src="assets/6_Logo_mystery.png" style="max-width:180px;" /></div>
+	<div class="emotsy-page-container">
+		<div class="emotsy-row emotsy-row-1">
+			<div class="emotsy-row-content no_stack">
+				<div class="emotsy-col emotsy-col-1 emotsy-col-w3">
+					<div class="emotsy-block emotsy-block-1 emotsy-image"><img alt="Image" class="emotsy-fixedwidth emotsy-fullwidthOnMobile" src="assets/6_Logo_mystery.png" style="max-width:180px;" /></div>
 				</div>
-				<div class="bee-col bee-col-2 bee-col-w9">
-					<div class="bee-block bee-block-1 bee-menu">
-						<nav class="bee-menu"><input class="bee-hamburger-trigger" id="bee-hamburger-memu-r0c1m0" type="checkbox" /><label class="bee-hamburger-controls" for="bee-hamburger-memu-r0c1m0"><span class="bee-hamburger-open"></span><span class="bee-hamburger-close"></span></label>
-							<ul class="bee-horizontal with-bee-hamburger">
+				<div class="emotsy-col emotsy-col-2 emotsy-col-w9">
+					<div class="emotsy-block emotsy-block-1 emotsy-menu">
+						<nav class="emotsy-menu"><input class="emotsy-hamburger-trigger" id="emotsy-hamburger-memu-r0c1m0" type="checkbox" /><label class="emotsy-hamburger-controls" for="emotsy-hamburger-memu-r0c1m0"><span class="emotsy-hamburger-open"></span><span class="emotsy-hamburger-close"></span></label>
+							<ul class="emotsy-horizontal with-emotsy-hamburger">
 								<li><a href="http://www.example.com/" target="_self" title="About Us">ABOUT US</a></li><span>|</span>
 								<li><a href="http://www.example.com/" target="_self" title="Our Products">CATALOG</a></li><span>|</span>
 								<li><a href="http://www.example.com/" target="_self" title="Manifesto">MANIFESTO</a></li><span>|</span>
@@ -888,82 +888,82 @@
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-2">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-divider">
+		<div class="emotsy-row emotsy-row-2">
+			<div class="emotsy-row-content">
+				<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
+					<div class="emotsy-block emotsy-block-1 emotsy-divider">
 						<div class="spacer" style="height:10px;"></div>
 					</div>
-					<div class="bee-block bee-block-2 bee-paragraph">
+					<div class="emotsy-block emotsy-block-2 emotsy-paragraph">
 						<p style="word-break:break-word;"><span>MYSTERY FLASH SALE!</span></p>
 					</div>
-					<div class="bee-block bee-block-3 bee-paragraph">
+					<div class="emotsy-block emotsy-block-3 emotsy-paragraph">
 						<p style="word-break:break-word;"><span>Three secret offers await</span></p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-3">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-image"><img alt="Image" class="bee-center bee-autowidth" src="assets/7_counter.gif" style="max-width:750px;" /></div>
-					<div class="bee-block bee-block-2 bee-button"><a class="bee-button-content" href="http://www.example.com" style="font-size: 12px; display: inline-block;" target="_self"><span style="font-size: 16px; word-break: break-word; line-height: 200%;"><span style="font-size:18px;">REVEAL YOUR DEAL <span style="font-size:16px;">↓</span></span></span></a></div>
+		<div class="emotsy-row emotsy-row-3">
+			<div class="emotsy-row-content">
+				<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
+					<div class="emotsy-block emotsy-block-1 emotsy-image"><img alt="Image" class="emotsy-center emotsy-autowidth" src="assets/7_counter.gif" style="max-width:750px;" /></div>
+					<div class="emotsy-block emotsy-block-2 emotsy-button"><a class="emotsy-button-content" href="http://www.example.com" style="font-size: 12px; display: inline-block;" target="_self"><span style="font-size: 16px; word-break: break-word; line-height: 200%;"><span style="font-size:18px;">REVEAL YOUR DEAL <span style="font-size:16px;">↓</span></span></span></a></div>
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-4">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-divider bee-mobile_hide">
+		<div class="emotsy-row emotsy-row-4">
+			<div class="emotsy-row-content">
+				<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
+					<div class="emotsy-block emotsy-block-1 emotsy-divider emotsy-mobile_hide">
 						<div class="spacer" style="height:40px;"></div>
 					</div>
-					<div class="bee-block bee-block-2 bee-divider">
+					<div class="emotsy-block emotsy-block-2 emotsy-divider">
 						<div class="spacer" style="height:50px;"></div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-5">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-divider">
+		<div class="emotsy-row emotsy-row-5">
+			<div class="emotsy-row-content">
+				<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
+					<div class="emotsy-block emotsy-block-1 emotsy-divider">
 						<div class="spacer" style="height:0px;"></div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-6">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w6">
-					<div class="bee-block bee-block-1 bee-image"><img alt="Alternate text" class="bee-center bee-autowidth" src="assets/8_Image_random.png" style="max-width:660px;" /></div>
+		<div class="emotsy-row emotsy-row-6">
+			<div class="emotsy-row-content">
+				<div class="emotsy-col emotsy-col-1 emotsy-col-w6">
+					<div class="emotsy-block emotsy-block-1 emotsy-image"><img alt="Alternate text" class="emotsy-center emotsy-autowidth" src="assets/8_Image_random.png" style="max-width:660px;" /></div>
 				</div>
-				<div class="bee-col bee-col-2 bee-col-w6">
-					<div class="bee-block bee-block-1 bee-paragraph">
+				<div class="emotsy-col emotsy-col-2 emotsy-col-w6">
+					<div class="emotsy-block emotsy-block-1 emotsy-paragraph">
 						<p style="word-break:break-word;"><span>GRAB YOUR DEAL 🤲</span></p>
 					</div>
-					<div class="bee-block bee-block-2 bee-paragraph">
+					<div class="emotsy-block emotsy-block-2 emotsy-paragraph">
 						<p style="word-break:break-word;"><span><strong>Quisque commodo at nulla at porttitor.</strong> Nullam tincidunt erat metus, in aliquam leo fringilla eget. Quisque eu eleifend elit, sed laoreet nisl. Nullam pretium pretium nisl, in vehicula leo cursus ut. Cras ligula neque, tempor ac </span></p>
 					</div>
-					<div class="bee-block bee-block-3 bee-divider">
-						<div class="center bee-separator" style="border-top:1px solid #FFFFFF;width:100%;"></div>
+					<div class="emotsy-block emotsy-block-3 emotsy-divider">
+						<div class="center emotsy-separator" style="border-top:1px solid #FFFFFF;width:100%;"></div>
 					</div>
-					<div class="bee-block bee-block-4 bee-form">
+					<div class="emotsy-block emotsy-block-4 emotsy-form">
 						<form accept-charset="UTF-8" action="{{form.action}}" autocomplete="on" enctype="multipart/form-data" method="post" target="_self">
-							<div class="bee-form-row">
-								<div class="bee-field bee-field-r5c1m3i1"><label for="r5c1m3i1">First Name</label><input id="r5c1m3i1" name="{{form.firstname}}" required="" type="text" /></div>
+							<div class="emotsy-form-row">
+								<div class="emotsy-field emotsy-field-r5c1m3i1"><label for="r5c1m3i1">First Name</label><input id="r5c1m3i1" name="{{form.firstname}}" required="" type="text" /></div>
 							</div>
-							<div class="bee-form-row">
-								<div class="bee-field bee-field-r5c1m3i2"><label for="r5c1m3i2">Last Name</label><input id="r5c1m3i2" name="{{form.lastname}}" required="" type="text" /></div>
+							<div class="emotsy-form-row">
+								<div class="emotsy-field emotsy-field-r5c1m3i2"><label for="r5c1m3i2">Last Name</label><input id="r5c1m3i2" name="{{form.lastname}}" required="" type="text" /></div>
 							</div>
-							<div class="bee-form-row">
-								<div class="bee-field bee-field-r5c1m3i3"><label for="r5c1m3i3">Email</label><input id="r5c1m3i3" name="{{form.email}}" required="" type="text" /></div>
+							<div class="emotsy-form-row">
+								<div class="emotsy-field emotsy-field-r5c1m3i3"><label for="r5c1m3i3">Email</label><input id="r5c1m3i3" name="{{form.email}}" required="" type="text" /></div>
 							</div>
-							<div class="bee-form-row">
-								<div class="bee-field bee-field-r5c1m3i4 bee-inline-field"><span class="bee-form-option-wrapper"><input id="r5c1m3i4" name="{{form.privacy_policy}}" type="checkbox" /><label class="inline" for="r5c1m3i4"> I agree to the <a href="#form.privacyurl">Privacy Policy</a></label></span></div>
+							<div class="emotsy-form-row">
+								<div class="emotsy-field emotsy-field-r5c1m3i4 emotsy-inline-field"><span class="emotsy-form-option-wrapper"><input id="r5c1m3i4" name="{{form.privacy_policy}}" type="checkbox" /><label class="inline" for="r5c1m3i4"> I agree to the <a href="#form.privacyurl">Privacy Policy</a></label></span></div>
 							</div>
-							<div class="bee-form-row">
-								<div class="bee-field bee-field-r5c1m3i5">
-									<div class="bee-button-container"><button id="r5c1m3i5" name="submit" type="submit" value="SIGN IN">SIGN IN</button></div>
+							<div class="emotsy-form-row">
+								<div class="emotsy-field emotsy-field-r5c1m3i5">
+									<div class="emotsy-button-container"><button id="r5c1m3i5" name="submit" type="submit" value="SIGN IN">SIGN IN</button></div>
 								</div>
 							</div>
 						</form>
@@ -971,126 +971,126 @@
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-7">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-divider">
+		<div class="emotsy-row emotsy-row-7">
+			<div class="emotsy-row-content">
+				<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
+					<div class="emotsy-block emotsy-block-1 emotsy-divider">
 						<div class="spacer" style="height:0px;"></div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-8">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-divider">
+		<div class="emotsy-row emotsy-row-8">
+			<div class="emotsy-row-content">
+				<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
+					<div class="emotsy-block emotsy-block-1 emotsy-divider">
 						<div class="spacer" style="height:35px;"></div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-9">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-paragraph">
+		<div class="emotsy-row emotsy-row-9">
+			<div class="emotsy-row-content">
+				<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
+					<div class="emotsy-block emotsy-block-1 emotsy-paragraph">
 						<p style="word-break:break-word;"><span>SOME OF OUR PRODUCTS</span></p>
 					</div>
-					<div class="bee-block bee-block-2 bee-image"><img alt="Image" class="bee-center bee-fixedwidth" src="assets/9_divider.png" style="max-width:288px;" /></div>
+					<div class="emotsy-block emotsy-block-2 emotsy-image"><img alt="Image" class="emotsy-center emotsy-fixedwidth" src="assets/9_divider.png" style="max-width:288px;" /></div>
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-10">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-paragraph">
+		<div class="emotsy-row emotsy-row-10">
+			<div class="emotsy-row-content">
+				<div class="emotsy-col emotsy-col-1 emotsy-col-w3">
+					<div class="emotsy-block emotsy-block-1 emotsy-paragraph">
 						<p style="word-break:break-word;"><span style="background-color:#8cc8f4;color:#ffffff;"> ACCESSORIES </span></p>
 					</div>
-					<div class="bee-block bee-block-2 bee-image"><img alt="Alternate text" class="bee-center bee-autowidth" src="assets/10_Smart_watch.png" style="max-width:250px;" /></div>
-					<div class="bee-block bee-block-3 bee-paragraph">
+					<div class="emotsy-block emotsy-block-2 emotsy-image"><img alt="Alternate text" class="emotsy-center emotsy-autowidth" src="assets/10_Smart_watch.png" style="max-width:250px;" /></div>
+					<div class="emotsy-block emotsy-block-3 emotsy-paragraph">
 						<p style="word-break:break-word;"><strong><span>Product name</span></strong></p>
 					</div>
-					<div class="bee-block bee-block-4 bee-paragraph">
+					<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
 						<p style="word-break:break-word;">I'm a new Text block ready for your content.</p>
 					</div>
-					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="http://www.example.com" style="font-size: 14px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 14px; line-height: 200%;"><span style="font-size: 14px;">LEARN MORE</span></span></a></div>
+					<div class="emotsy-block emotsy-block-5 emotsy-button"><a class="emotsy-button-content" href="http://www.example.com" style="font-size: 14px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 14px; line-height: 200%;"><span style="font-size: 14px;">LEARN MORE</span></span></a></div>
 				</div>
-				<div class="bee-col bee-col-2 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-paragraph">
+				<div class="emotsy-col emotsy-col-2 emotsy-col-w3">
+					<div class="emotsy-block emotsy-block-1 emotsy-paragraph">
 						<p style="word-break:break-word;"><span style="background-color:#8cc8f4;color:#ffffff;"> COLLECTABLES </span></p>
 					</div>
-					<div class="bee-block bee-block-2 bee-image"><img alt="Alternate text" class="bee-center bee-autowidth" src="assets/11_neko.png" style="max-width:249px;" /></div>
-					<div class="bee-block bee-block-3 bee-paragraph">
+					<div class="emotsy-block emotsy-block-2 emotsy-image"><img alt="Alternate text" class="emotsy-center emotsy-autowidth" src="assets/11_neko.png" style="max-width:249px;" /></div>
+					<div class="emotsy-block emotsy-block-3 emotsy-paragraph">
 						<p style="word-break:break-word;"><strong><span>Product name</span></strong></p>
 					</div>
-					<div class="bee-block bee-block-4 bee-paragraph">
+					<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
 						<p style="word-break:break-word;">I'm a new Text block ready for your content.</p>
 					</div>
-					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="http://www.example.com" style="font-size: 14px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 14px; line-height: 200%;"><span style="font-size: 14px;">LEARN MORE</span></span></a></div>
+					<div class="emotsy-block emotsy-block-5 emotsy-button"><a class="emotsy-button-content" href="http://www.example.com" style="font-size: 14px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 14px; line-height: 200%;"><span style="font-size: 14px;">LEARN MORE</span></span></a></div>
 				</div>
-				<div class="bee-col bee-col-3 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-paragraph">
+				<div class="emotsy-col emotsy-col-3 emotsy-col-w3">
+					<div class="emotsy-block emotsy-block-1 emotsy-paragraph">
 						<p style="word-break:break-word;"><span style="background-color:#8cc8f4;color:#ffffff;"> FURNISHING </span></p>
 					</div>
-					<div class="bee-block bee-block-2 bee-image"><img alt="Alternate text" class="bee-center bee-autowidth" src="assets/12_Chair.png" style="max-width:249px;" /></div>
-					<div class="bee-block bee-block-3 bee-paragraph">
+					<div class="emotsy-block emotsy-block-2 emotsy-image"><img alt="Alternate text" class="emotsy-center emotsy-autowidth" src="assets/12_Chair.png" style="max-width:249px;" /></div>
+					<div class="emotsy-block emotsy-block-3 emotsy-paragraph">
 						<p style="word-break:break-word;"><strong><span>Product name</span></strong></p>
 					</div>
-					<div class="bee-block bee-block-4 bee-paragraph">
+					<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
 						<p style="word-break:break-word;">I'm a new Text block ready for your content.</p>
 					</div>
-					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="http://www.example.com" style="font-size: 14px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 14px; line-height: 200%;"><span style="font-size: 14px;">LEARN MORE</span></span></a></div>
+					<div class="emotsy-block emotsy-block-5 emotsy-button"><a class="emotsy-button-content" href="http://www.example.com" style="font-size: 14px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 14px; line-height: 200%;"><span style="font-size: 14px;">LEARN MORE</span></span></a></div>
 				</div>
-				<div class="bee-col bee-col-4 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-paragraph">
+				<div class="emotsy-col emotsy-col-4 emotsy-col-w3">
+					<div class="emotsy-block emotsy-block-1 emotsy-paragraph">
 						<p style="word-break:break-word;"><span style="background-color:#8cc8f4;color:#ffffff;"> TOYS &amp; GAMES </span></p>
 					</div>
-					<div class="bee-block bee-block-2 bee-image"><img alt="Alternate text" class="bee-center bee-autowidth" src="assets/13_Rollers.png" style="max-width:249px;" /></div>
-					<div class="bee-block bee-block-3 bee-paragraph">
+					<div class="emotsy-block emotsy-block-2 emotsy-image"><img alt="Alternate text" class="emotsy-center emotsy-autowidth" src="assets/13_Rollers.png" style="max-width:249px;" /></div>
+					<div class="emotsy-block emotsy-block-3 emotsy-paragraph">
 						<p style="word-break:break-word;"><strong><span>Product name</span></strong></p>
 					</div>
-					<div class="bee-block bee-block-4 bee-paragraph">
+					<div class="emotsy-block emotsy-block-4 emotsy-paragraph">
 						<p style="word-break:break-word;">I'm a new Text block ready for your content.</p>
 					</div>
-					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="http://www.example.com" style="font-size: 14px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 14px; line-height: 200%;"><span style="font-size: 14px;">LEARN MORE</span></span></a></div>
+					<div class="emotsy-block emotsy-block-5 emotsy-button"><a class="emotsy-button-content" href="http://www.example.com" style="font-size: 14px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 14px; line-height: 200%;"><span style="font-size: 14px;">LEARN MORE</span></span></a></div>
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-11">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-divider">
+		<div class="emotsy-row emotsy-row-11">
+			<div class="emotsy-row-content">
+				<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
+					<div class="emotsy-block emotsy-block-1 emotsy-divider">
 						<div class="spacer" style="height:25px;"></div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-12">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-divider">
+		<div class="emotsy-row emotsy-row-12">
+			<div class="emotsy-row-content">
+				<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
+					<div class="emotsy-block emotsy-block-1 emotsy-divider">
 						<div class="spacer" style="height:5px;"></div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-13">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w6">
-					<div class="bee-block bee-block-1 bee-image"><img alt="Alternate text" class="bee-fixedwidth" src="assets/14_Logo_mystery_w.png" style="max-width:175px;" /></div>
-					<div class="bee-block bee-block-2 bee-text">
-						<div class="bee-text-content" style="font-size: 14px; line-height: 150%; font-family: inherit; color: #f9f9f9;">
+		<div class="emotsy-row emotsy-row-13">
+			<div class="emotsy-row-content">
+				<div class="emotsy-col emotsy-col-1 emotsy-col-w6">
+					<div class="emotsy-block emotsy-block-1 emotsy-image"><img alt="Alternate text" class="emotsy-fixedwidth" src="assets/14_Logo_mystery_w.png" style="max-width:175px;" /></div>
+					<div class="emotsy-block emotsy-block-2 emotsy-text">
+						<div class="emotsy-text-content" style="font-size: 14px; line-height: 150%; font-family: inherit; color: #f9f9f9;">
 							<p style="font-size: 14px; line-height: 21px; text-align: left;"><span style="font-size: 16px; line-height: 24px; color: #48cac0;"><strong style=""><span style="line-height: 18px;">SEVEN SHOP</span></strong></span><br style="" />Lorem ipsum dolor © All rights reserved. <br style="" />25 Mystery road, HiddenCity</p>
 						</div>
 					</div>
-					<div class="bee-block bee-block-3 bee-image"><img alt="Image" class="bee-fixedwidth" src="assets/9_divider.png" style="max-width:315px;" /></div>
+					<div class="emotsy-block emotsy-block-3 emotsy-image"><img alt="Image" class="emotsy-fixedwidth" src="assets/9_divider.png" style="max-width:315px;" /></div>
 				</div>
-				<div class="bee-col bee-col-2 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-paragraph">
+				<div class="emotsy-col emotsy-col-2 emotsy-col-w3">
+					<div class="emotsy-block emotsy-block-1 emotsy-paragraph">
 						<p style="word-break:break-word;"><span style="color:#48cac0;"><span><strong>MENU</strong></span></span></p>
 					</div>
-					<div class="bee-block bee-block-2 bee-menu">
-						<nav class="bee-menu"><input class="bee-hamburger-trigger" id="bee-hamburger-memu-r12c1m1" type="checkbox" /><label class="bee-hamburger-controls" for="bee-hamburger-memu-r12c1m1"><span class="bee-hamburger-open"></span><span class="bee-hamburger-close"></span></label>
-							<ul class="bee-vertical with-bee-hamburger">
+					<div class="emotsy-block emotsy-block-2 emotsy-menu">
+						<nav class="emotsy-menu"><input class="emotsy-hamburger-trigger" id="emotsy-hamburger-memu-r12c1m1" type="checkbox" /><label class="emotsy-hamburger-controls" for="emotsy-hamburger-memu-r12c1m1"><span class="emotsy-hamburger-open"></span><span class="emotsy-hamburger-close"></span></label>
+							<ul class="emotsy-vertical with-emotsy-hamburger">
 								<li><a href="http://www.example.com/" target="_self" title="About Us">About Us</a></li>
 								<li><a href="http://www.example.com/" target="_self" title="Our Products">Our Products</a></li>
 								<li><a href="http://www.example.com/" target="_self" title="Manifesto">Manifesto</a></li>
@@ -1100,33 +1100,33 @@
 						</nav>
 					</div>
 				</div>
-				<div class="bee-col bee-col-3 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-paragraph">
+				<div class="emotsy-col emotsy-col-3 emotsy-col-w3">
+					<div class="emotsy-block emotsy-block-1 emotsy-paragraph">
 						<p style="word-break:break-word;"><span style="color:#48cac0;"><span><strong>FOLLOW US</strong></span></span></p>
 					</div>
-					<div class="bee-block bee-block-2 bee-social">
+					<div class="emotsy-block emotsy-block-2 emotsy-social">
 						<div class="content"><span class="icon" style="padding:0 7.5px 0 7.5px;"><a href="https://www.facebook.com" target="_self"><img alt="Facebook" src="assets/15_facebook@2x.png" title="Facebook" /></a></span><span class="icon" style="padding:0 7.5px 0 7.5px;"><a href="https://www.twitter.com" target="_self"><img alt="Twitter" src="assets/16_twitter@2x.png" title="Twitter" /></a></span><span class="icon" style="padding:0 7.5px 0 7.5px;"><a href="https://www.instagram.com" target="_self"><img alt="Instagram" src="assets/17_instagram@2x.png" title="Instagram" /></a></span><span class="icon" style="padding:0 7.5px 0 7.5px;"><a href="https://www.linkedin.com" target="_self"><img alt="LinkedIn" src="assets/18_linkedin@2x.png" title="LinkedIn" /></a></span></div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-14">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-divider">
+		<div class="emotsy-row emotsy-row-14">
+			<div class="emotsy-row-content">
+				<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
+					<div class="emotsy-block emotsy-block-1 emotsy-divider">
 						<div class="spacer" style="height:5px;"></div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-15">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-icons">
-						<div class="bee-icon bee-icon-last">
-							<div class="bee-content">
-								<div class="bee-icon-image"><a href="http://designedwithbeefree.com/" target="_blank" title="Designed with Beefree"><img alt="Beefree Logo" height="32px" src="assets/19_Beefree-logo.png" width="auto" /></a></div>
-								<div class="bee-icon-label bee-icon-label-right"><a href="http://designedwithbeefree.com/" target="_blank" title="Designed with Beefree">Designed with Beefree</a></div>
+		<div class="emotsy-row emotsy-row-15">
+			<div class="emotsy-row-content">
+				<div class="emotsy-col emotsy-col-1 emotsy-col-w12">
+					<div class="emotsy-block emotsy-block-1 emotsy-icons">
+						<div class="emotsy-icon emotsy-icon-last">
+							<div class="emotsy-content">
+								<div class="emotsy-icon-image"><a href="http://emotsy.com/" target="_blank" title="Designed with emotsy"><img alt="emotsy Logo" height="32px" src="assets/emotsy-logo.png" width="auto" /></a></div>
+								<div class="emotsy-icon-label emotsy-icon-label-right"><a href="http://emotsy.com/" target="_blank" title="Designed with emotsy">Designed with emotsy</a></div>
 							</div>
 						</div>
 					</div>
